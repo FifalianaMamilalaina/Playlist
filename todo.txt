@@ -1,0 +1,29 @@
+Application avec plusieurs composants
+Application desktop
+{
+    [  ] On a un répertoire où on mets les chansons
+    [  ] On va un programme qui voit à chaque fois qu'une nouvelle chanson.mp3 (uniquement) à été ajoutée dans le répertoire 
+    [  ] Programme un: On va avoir un programme à chaque 5 minutes qui prend la liste des mp3 dans le répertoire 
+    [  ] Deuxième programme: il prends la liste et fait une extraction metadata de ces listes pour avoir les informations sur chaque mp3(librairie déjàexistante) Paramètre, liste mp3 et sortie, liste des méta-données disponibles pour chaque mp3 (traitement)
+    [  ] Troisième programme: parametre sortie du deuxième programme, il appelle une api et déclare cette liste sous forme d’api (transfert par api)
+    Une fois envoyé via api, chaque mp3 envoyé par api est directement effacé dans le répertoire
+    Si il y a une erreur dqns le programme 3, on détente juste le programme 3, puis si ça fonctionne toujours pas,  on écris les erreurs dans le log et on supprime pas les fichiers concernés par l'erreur 
+
+    Chaque programme doit écrire tout ce qu'il font dans un fichier log en détail
+
+    Utiliser composants logiciel à chaque programme avant de passer le return vers le prochain programme
+    C'est une fois un message envoyé par le programme envoyé que le prochain programme vérifie les messages dans le composant, si il y a des messages adressé à lui,  c'est là qu'il fait ce qu'il doit faire
+    Quand ce même programme fini, il envoie un message dans le composant et ainsi de suite
+
+    RABIT MQ
+}
+
+Application web
+    {
+    Crud mp3
+    Une interface pour saisir les critères(durée de la playlist, et autres critères selon les chansons, language,  etc)
+    Sortir une playlist selon les critère
+    L'utilisateur peut modifier la playlist,  changer certaines chansons et choisir ceux de leurs choix
+    L'utilisateur peut soit télécharger format.zip la playlist soit directement jouer
+
+}

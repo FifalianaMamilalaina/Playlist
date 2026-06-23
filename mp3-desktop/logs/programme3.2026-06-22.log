@@ -1,0 +1,178 @@
+2026-06-22 10:02:52.933 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-06-22 10:02:52.951 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-06-22 10:09:09.225 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-06-22 10:09:09.236 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-06-22 10:11:24.213 [Thread-P3] WARN  com.mp3.desktop.Programme3 - Programme 3 interrompu
+2026-06-22 10:28:39.452 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-06-22 10:28:39.462 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-06-22 10:28:39.466 [pool-1-thread-21] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Happier Than Ever
+2026-06-22 10:28:39.639 [pool-1-thread-21] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Happier Than Ever
+2026-06-22 10:28:39.807 [pool-1-thread-21] INFO  com.mp3.desktop.Programme3 - Chanson '?Happier Than Ever' ajoutee avec succes (ID=1.0)
+2026-06-22 10:28:39.808 [pool-1-thread-21] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 10:28:39.844 [pool-1-thread-21] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 10:28:39.847 [pool-1-thread-22] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 10:28:39.854 [pool-1-thread-22] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 10:28:39.867 [pool-1-thread-22] INFO  com.mp3.desktop.Programme3 - Chanson '?HATRAIZA / AZA AVELA - REKO' ajoutee avec succes (ID=2.0)
+2026-06-22 10:28:39.867 [pool-1-thread-22] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 10:28:39.898 [pool-1-thread-22] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 10:28:39.899 [pool-1-thread-23] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Misia
+2026-06-22 10:28:39.906 [pool-1-thread-23] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Misia
+2026-06-22 10:28:39.917 [pool-1-thread-23] INFO  com.mp3.desktop.Programme3 - Chanson '?Misia' ajoutee avec succes (ID=3.0)
+2026-06-22 10:28:39.917 [pool-1-thread-23] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-06-22 10:28:39.946 [pool-1-thread-23] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-06-22 10:28:39.948 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?MITONIA - REKO (Official lyrics video)
+2026-06-22 10:28:39.953 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?MITONIA - REKO (Official lyrics video)
+2026-06-22 10:28:39.965 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - Chanson '?MITONIA - REKO (Official lyrics video)' ajoutee avec succes (ID=4.0)
+2026-06-22 10:28:39.966 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 10:28:39.997 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 10:28:39.998 [pool-1-thread-25] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Ny Anaranao
+2026-06-22 10:28:40.006 [pool-1-thread-25] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Ny Anaranao
+2026-06-22 10:28:40.019 [pool-1-thread-25] INFO  com.mp3.desktop.Programme3 - Chanson '?Ny Anaranao' ajoutee avec succes (ID=5.0)
+2026-06-22 10:28:40.019 [pool-1-thread-25] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 10:28:40.312 [pool-1-thread-25] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 10:28:40.313 [pool-1-thread-26] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Rotoroto
+2026-06-22 10:28:40.320 [pool-1-thread-26] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Rotoroto
+2026-06-22 10:28:40.332 [pool-1-thread-26] INFO  com.mp3.desktop.Programme3 - Chanson '?Rotoroto' ajoutee avec succes (ID=6.0)
+2026-06-22 10:28:40.332 [pool-1-thread-26] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-06-22 10:28:40.357 [pool-1-thread-26] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-06-22 10:28:40.359 [pool-1-thread-27] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Tongasoa
+2026-06-22 10:28:40.366 [pool-1-thread-27] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Tongasoa
+2026-06-22 10:28:40.378 [pool-1-thread-27] INFO  com.mp3.desktop.Programme3 - Chanson '?Tongasoa' ajoutee avec succes (ID=7.0)
+2026-06-22 10:28:40.379 [pool-1-thread-27] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-06-22 10:28:40.419 [pool-1-thread-27] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-06-22 15:09:50.853 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-06-22 15:09:50.867 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-06-22 16:14:49.833 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Happier Than Ever
+2026-06-22 16:14:50.011 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Happier Than Ever
+2026-06-22 16:14:50.065 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Chanson '?Happier Than Ever' ajoutee avec succes (ID=8.0)
+2026-06-22 16:14:50.065 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 16:14:50.447 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 16:14:50.450 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 16:14:50.460 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 16:14:50.470 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Chanson '?HATRAIZA / AZA AVELA - REKO' ajoutee avec succes (ID=9.0)
+2026-06-22 16:14:50.470 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 16:14:50.501 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 16:14:50.503 [pool-1-thread-1580] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Louane - Maman (2015) Official Music Video
+2026-06-22 16:14:50.511 [pool-1-thread-1580] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Louane - Maman (2015) Official Music Video
+2026-06-22 16:14:50.522 [pool-1-thread-1580] INFO  com.mp3.desktop.Programme3 - Chanson '?Louane - Maman (2015) Official Music Video' ajoutee avec succes (ID=10.0)
+2026-06-22 16:14:50.523 [pool-1-thread-1580] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-06-22 16:14:50.552 [pool-1-thread-1580] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-06-22 16:14:50.554 [pool-1-thread-1581] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-06-22 16:14:50.560 [pool-1-thread-1581] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-06-22 16:14:50.568 [pool-1-thread-1581] INFO  com.mp3.desktop.Programme3 - Chanson 'Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)' ajoutee avec succes (ID=11.0)
+2026-06-22 16:14:50.568 [pool-1-thread-1581] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-06-22 16:14:50.601 [pool-1-thread-1581] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-06-22 16:14:50.602 [pool-1-thread-1582] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Misia
+2026-06-22 16:14:50.610 [pool-1-thread-1582] INFO  com.mp3.desktop.Programme3 - DOUBLON detecte pour (hash=d3fba2106d55087356c3109e936a93da): ?Misia. On ne l'envoie pas.
+2026-06-22 16:14:50.891 [pool-1-thread-1582] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-06-22 16:14:50.891 [pool-1-thread-1583] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?MITONIA - REKO (Official lyrics video)
+2026-06-22 16:14:50.896 [pool-1-thread-1583] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?MITONIA - REKO (Official lyrics video)
+2026-06-22 16:14:50.913 [pool-1-thread-1583] INFO  com.mp3.desktop.Programme3 - Chanson '?MITONIA - REKO (Official lyrics video)' ajoutee avec succes (ID=12.0)
+2026-06-22 16:14:50.913 [pool-1-thread-1583] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 16:14:50.940 [pool-1-thread-1583] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 16:14:50.940 [pool-1-thread-1584] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Ny Anaranao
+2026-06-22 16:14:50.944 [pool-1-thread-1584] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Ny Anaranao
+2026-06-22 16:14:50.960 [pool-1-thread-1584] INFO  com.mp3.desktop.Programme3 - Chanson '?Ny Anaranao' ajoutee avec succes (ID=13.0)
+2026-06-22 16:14:50.960 [pool-1-thread-1584] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 16:14:50.995 [pool-1-thread-1584] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 16:14:50.996 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Rotoroto
+2026-06-22 16:14:51.002 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - DOUBLON detecte pour (hash=e323c321959edeb00a960d7cba97d8a8): ?Rotoroto. On ne l'envoie pas.
+2026-06-22 16:14:51.033 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-06-22 16:14:51.034 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Tongasoa
+2026-06-22 16:14:51.041 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Tongasoa
+2026-06-22 16:14:51.053 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Chanson '?Tongasoa' ajoutee avec succes (ID=14.0)
+2026-06-22 16:14:51.053 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-06-22 16:14:51.085 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.384 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Happier Than Ever
+2026-06-22 16:19:20.390 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Happier Than Ever
+2026-06-22 16:19:20.402 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Chanson '?Happier Than Ever' ajoutee avec succes (ID=15.0)
+2026-06-22 16:19:20.404 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 16:19:20.414 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 16:19:20.443 [pool-1-thread-1580] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 16:19:20.452 [pool-1-thread-1580] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 16:19:20.465 [pool-1-thread-1580] INFO  com.mp3.desktop.Programme3 - Chanson '?HATRAIZA / AZA AVELA - REKO' ajoutee avec succes (ID=16.0)
+2026-06-22 16:19:20.466 [pool-1-thread-1580] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.479 [pool-1-thread-1580] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.481 [pool-1-thread-1581] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Louane - Maman (2015) Official Music Video
+2026-06-22 16:19:20.489 [pool-1-thread-1581] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Louane - Maman (2015) Official Music Video
+2026-06-22 16:19:20.501 [pool-1-thread-1581] INFO  com.mp3.desktop.Programme3 - Chanson '?Louane - Maman (2015) Official Music Video' ajoutee avec succes (ID=17.0)
+2026-06-22 16:19:20.501 [pool-1-thread-1581] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-06-22 16:19:20.516 [pool-1-thread-1581] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-06-22 16:19:20.528 [pool-1-thread-1582] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-06-22 16:19:20.542 [pool-1-thread-1582] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-06-22 16:19:20.554 [pool-1-thread-1582] INFO  com.mp3.desktop.Programme3 - Chanson 'Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)' ajoutee avec succes (ID=18.0)
+2026-06-22 16:19:20.554 [pool-1-thread-1582] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-06-22 16:19:20.566 [pool-1-thread-1582] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-06-22 16:19:20.586 [pool-1-thread-1583] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Misia
+2026-06-22 16:19:20.593 [pool-1-thread-1583] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Misia
+2026-06-22 16:19:20.602 [pool-1-thread-1583] INFO  com.mp3.desktop.Programme3 - Chanson '?Misia' ajoutee avec succes (ID=19.0)
+2026-06-22 16:19:20.602 [pool-1-thread-1583] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.643 [pool-1-thread-1583] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.644 [pool-1-thread-1584] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?MITONIA - REKO (Official lyrics video)
+2026-06-22 16:19:20.650 [pool-1-thread-1584] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?MITONIA - REKO (Official lyrics video)
+2026-06-22 16:19:20.660 [pool-1-thread-1584] INFO  com.mp3.desktop.Programme3 - Chanson '?MITONIA - REKO (Official lyrics video)' ajoutee avec succes (ID=20.0)
+2026-06-22 16:19:20.660 [pool-1-thread-1584] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 16:19:20.691 [pool-1-thread-1584] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 16:19:20.691 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Ny Anaranao
+2026-06-22 16:19:20.691 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Ny Anaranao
+2026-06-22 16:19:20.711 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - Chanson '?Ny Anaranao' ajoutee avec succes (ID=21.0)
+2026-06-22 16:19:20.711 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.763 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.764 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Rotoroto
+2026-06-22 16:19:20.777 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Rotoroto
+2026-06-22 16:19:20.795 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Chanson '?Rotoroto' ajoutee avec succes (ID=22.0)
+2026-06-22 16:19:20.796 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.843 [pool-1-thread-1573] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.845 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Tongasoa
+2026-06-22 16:19:20.850 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Tongasoa
+2026-06-22 16:19:20.864 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Chanson '?Tongasoa' ajoutee avec succes (ID=23.0)
+2026-06-22 16:19:20.865 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.897 [pool-1-thread-1579] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-06-22 16:21:45.759 [Thread-P3] WARN  com.mp3.desktop.Programme3 - Programme 3 interrompu
+2026-06-22 16:22:03.969 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-06-22 16:22:03.982 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-06-22 16:24:34.354 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Happier Than Ever
+2026-06-22 16:24:34.787 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Happier Than Ever
+2026-06-22 16:24:34.915 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Chanson '?Happier Than Ever' ajoutee avec succes (ID=24.0)
+2026-06-22 16:24:34.915 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 16:24:34.940 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 16:24:34.943 [pool-1-thread-83] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 16:24:34.952 [pool-1-thread-83] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 16:24:34.960 [pool-1-thread-83] INFO  com.mp3.desktop.Programme3 - Chanson '?HATRAIZA / AZA AVELA - REKO' ajoutee avec succes (ID=25.0)
+2026-06-22 16:24:34.960 [pool-1-thread-83] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 16:24:35.012 [pool-1-thread-83] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 16:24:35.022 [pool-1-thread-84] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Louane - Maman (2015) Official Music Video
+2026-06-22 16:24:35.037 [pool-1-thread-84] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Louane - Maman (2015) Official Music Video
+2026-06-22 16:24:35.062 [pool-1-thread-84] INFO  com.mp3.desktop.Programme3 - Chanson '?Louane - Maman (2015) Official Music Video' ajoutee avec succes (ID=26.0)
+2026-06-22 16:24:35.064 [pool-1-thread-84] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-06-22 16:24:35.127 [pool-1-thread-84] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-06-22 16:24:35.131 [pool-1-thread-85] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-06-22 16:24:35.136 [pool-1-thread-85] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-06-22 16:24:35.156 [pool-1-thread-85] INFO  com.mp3.desktop.Programme3 - Chanson 'Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)' ajoutee avec succes (ID=27.0)
+2026-06-22 16:24:35.160 [pool-1-thread-85] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-06-22 16:24:35.194 [pool-1-thread-85] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-06-22 16:24:35.201 [pool-1-thread-86] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Misia
+2026-06-22 16:24:35.208 [pool-1-thread-86] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Misia
+2026-06-22 16:24:35.219 [pool-1-thread-86] INFO  com.mp3.desktop.Programme3 - Chanson '?Misia' ajoutee avec succes (ID=28.0)
+2026-06-22 16:24:35.219 [pool-1-thread-86] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-06-22 16:24:35.514 [pool-1-thread-86] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-06-22 16:24:35.517 [pool-1-thread-87] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?MITONIA - REKO (Official lyrics video)
+2026-06-22 16:24:35.524 [pool-1-thread-87] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?MITONIA - REKO (Official lyrics video)
+2026-06-22 16:24:35.539 [pool-1-thread-87] INFO  com.mp3.desktop.Programme3 - Chanson '?MITONIA - REKO (Official lyrics video)' ajoutee avec succes (ID=29.0)
+2026-06-22 16:24:35.539 [pool-1-thread-87] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 16:24:35.572 [pool-1-thread-87] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 16:24:35.573 [pool-1-thread-88] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Ny Anaranao
+2026-06-22 16:24:35.582 [pool-1-thread-88] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Ny Anaranao
+2026-06-22 16:24:35.592 [pool-1-thread-88] INFO  com.mp3.desktop.Programme3 - Chanson '?Ny Anaranao' ajoutee avec succes (ID=30.0)
+2026-06-22 16:24:35.593 [pool-1-thread-88] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 16:24:35.620 [pool-1-thread-88] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 16:24:35.621 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Rotoroto
+2026-06-22 16:24:35.629 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Rotoroto
+2026-06-22 16:24:35.640 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - Chanson '?Rotoroto' ajoutee avec succes (ID=31.0)
+2026-06-22 16:24:35.642 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-06-22 16:24:35.667 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-06-22 16:24:35.669 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Tongasoa
+2026-06-22 16:24:35.677 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Envoi a l'API : ?Tongasoa
+2026-06-22 16:24:35.686 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Chanson '?Tongasoa' ajoutee avec succes (ID=32.0)
+2026-06-22 16:24:35.686 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-06-22 16:24:35.715 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3

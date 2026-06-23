@@ -1,0 +1,9 @@
+com\mp3\web\service\ChansonService.class
+com\mp3\web\controller\PlaylistApiController.class
+com\mp3\web\model\Playlist.class
+com\mp3\web\controller\WebController.class
+com\mp3\web\model\Chanson.class
+com\mp3\web\controller\ChansonApiController.class
+com\mp3\web\repository\ChansonRepository.class
+com\mp3\web\repository\PlaylistRepository.class
+com\mp3\web\Mp3WebApplication.class

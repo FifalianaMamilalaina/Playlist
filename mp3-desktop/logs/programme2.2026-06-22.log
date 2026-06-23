@@ -1,0 +1,79 @@
+2026-06-22 10:02:52.824 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-06-22 10:02:52.842 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-06-22 10:09:08.805 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-06-22 10:09:08.822 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-06-22 10:11:24.213 [Thread-P2] WARN  com.mp3.desktop.Programme2 - Programme 2 interrompu
+2026-06-22 10:28:38.910 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-06-22 10:28:38.932 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-06-22 10:28:38.960 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 10:28:39.103 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Billie Eilish - ?Happier Than Ever
+2026-06-22 10:28:39.106 [pool-1-thread-13] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 10:28:39.183 [pool-1-thread-13] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Reko Band - ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 10:28:39.185 [pool-1-thread-14] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-06-22 10:28:39.248 [pool-1-thread-14] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Misia
+2026-06-22 10:28:39.250 [pool-1-thread-15] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 10:28:39.312 [pool-1-thread-15] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Reko Band - ?MITONIA - REKO (Official lyrics video)
+2026-06-22 10:28:39.315 [pool-1-thread-16] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 10:28:39.367 [pool-1-thread-16] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Ny Anaranao
+2026-06-22 10:28:39.369 [pool-1-thread-17] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-06-22 10:28:39.429 [pool-1-thread-17] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Rotoroto
+2026-06-22 10:28:39.431 [pool-1-thread-18] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-06-22 10:28:39.504 [pool-1-thread-18] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Tongasoa
+2026-06-22 15:09:50.100 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-06-22 15:09:50.124 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-06-22 16:14:49.695 [pool-1-thread-1570] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 16:14:49.830 [pool-1-thread-1570] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Billie Eilish - ?Happier Than Ever
+2026-06-22 16:14:49.833 [pool-1-thread-1572] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 16:14:49.906 [pool-1-thread-1572] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Reko Band - ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 16:14:49.908 [pool-1-thread-1574] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-06-22 16:14:49.947 [pool-1-thread-1574] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Nils - ?Louane - Maman (2015) Official Music Video
+2026-06-22 16:14:49.949 [pool-1-thread-1575] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-06-22 16:14:50.013 [pool-1-thread-1575] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : null - Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-06-22 16:14:50.015 [pool-1-thread-1576] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-06-22 16:14:50.068 [pool-1-thread-1576] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Misia
+2026-06-22 16:14:50.079 [pool-1-thread-1577] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 16:14:50.143 [pool-1-thread-1577] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Reko Band - ?MITONIA - REKO (Official lyrics video)
+2026-06-22 16:14:50.145 [pool-1-thread-1578] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 16:14:50.183 [pool-1-thread-1578] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Ny Anaranao
+2026-06-22 16:14:50.183 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-06-22 16:14:50.215 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Rotoroto
+2026-06-22 16:14:50.215 [pool-1-thread-1570] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-06-22 16:14:50.263 [pool-1-thread-1570] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Tongasoa
+2026-06-22 16:19:20.310 [pool-1-thread-1572] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 16:19:20.383 [pool-1-thread-1572] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Billie Eilish - ?Happier Than Ever
+2026-06-22 16:19:20.384 [pool-1-thread-1574] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.440 [pool-1-thread-1574] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Reko Band - ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 16:19:20.442 [pool-1-thread-1575] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-06-22 16:19:20.479 [pool-1-thread-1575] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Nils - ?Louane - Maman (2015) Official Music Video
+2026-06-22 16:19:20.481 [pool-1-thread-1576] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-06-22 16:19:20.526 [pool-1-thread-1576] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : null - Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-06-22 16:19:20.527 [pool-1-thread-1577] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.582 [pool-1-thread-1577] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Misia
+2026-06-22 16:19:20.583 [pool-1-thread-1578] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 16:19:20.642 [pool-1-thread-1578] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Reko Band - ?MITONIA - REKO (Official lyrics video)
+2026-06-22 16:19:20.643 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.689 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Ny Anaranao
+2026-06-22 16:19:20.691 [pool-1-thread-1570] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.744 [pool-1-thread-1570] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Rotoroto
+2026-06-22 16:19:20.745 [pool-1-thread-1572] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-06-22 16:19:20.837 [pool-1-thread-1572] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Tongasoa
+2026-06-22 16:22:03.465 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-06-22 16:22:03.546 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-06-22 16:24:34.152 [pool-1-thread-73] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-06-22 16:24:34.345 [pool-1-thread-73] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Billie Eilish - ?Happier Than Ever
+2026-06-22 16:24:34.352 [pool-1-thread-76] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-06-22 16:24:34.432 [pool-1-thread-76] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Reko Band - ?HATRAIZA / AZA AVELA - REKO
+2026-06-22 16:24:34.436 [pool-1-thread-78] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-06-22 16:24:34.469 [pool-1-thread-78] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Nils - ?Louane - Maman (2015) Official Music Video
+2026-06-22 16:24:34.472 [pool-1-thread-79] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-06-22 16:24:34.528 [pool-1-thread-79] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : null - Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-06-22 16:24:34.532 [pool-1-thread-80] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-06-22 16:24:34.593 [pool-1-thread-80] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Misia
+2026-06-22 16:24:34.602 [pool-1-thread-81] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-06-22 16:24:34.659 [pool-1-thread-81] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Reko Band - ?MITONIA - REKO (Official lyrics video)
+2026-06-22 16:24:34.659 [pool-1-thread-82] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-06-22 16:24:34.698 [pool-1-thread-82] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Ny Anaranao
+2026-06-22 16:24:34.702 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-06-22 16:24:34.740 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Rotoroto
+2026-06-22 16:24:34.744 [pool-1-thread-73] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-06-22 16:24:34.825 [pool-1-thread-73] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Tongasoa

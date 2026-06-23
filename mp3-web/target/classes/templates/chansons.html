@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout :: head('Chansons')}"></head>
+<body>
+
+<div th:replace="~{layout :: navbar}"></div>
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="bi bi-music-note-list"></i> Liste des Chansons</h2>
+        <a th:href="@{/chansons/ajouter}" class="btn btn-primary"><i class="bi bi-plus-lg"></i> Ajouter manuellement</a>
+    </div>
+
+    <!-- Barre de recherche -->
+    <div class="card mb-4">
+        <div class="card-body bg-light">
+            <form action="/chansons" method="get" class="d-flex">
+                <input type="text" name="recherche" th:value="${recherche}" class="form-control me-2" placeholder="Rechercher par titre...">
+                <button type="submit" class="btn btn-outline-primary">Rechercher</button>
+                <a th:if="${recherche}" th:href="@{/chansons}" class="btn btn-outline-secondary ms-2">Effacer</a>
+            </form>
+        </div>
+    </div>
+
+    <div th:if="${chansons.empty}" class="alert alert-info text-center py-4">
+        <i class="bi bi-info-circle-fill me-2"></i> Aucune chanson n'a été trouvée. Placez des MP3 dans le répertoire surveillé par le programme desktop, ou ajoutez-en manuellement.
+    </div>
+
+    <div th:unless="${chansons.empty}" class="table-responsive">
+        <table class="table table-hover align-middle">
+            <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Titre</th>
+                <th>Artiste</th>
+                <th>Album</th>
+                <th>Genre</th>
+                <th>Durée</th>
+                <th>Lecture</th>
+                <th class="text-end">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="chanson : ${chansons}">
+                <td th:text="${chanson.id}">1</td>
+                <td class="fw-bold text-primary" th:text="${chanson.titre}">Titre</td>
+                <td th:text="${chanson.artiste}">Artiste</td>
+                <td th:text="${chanson.album}">Album</td>
+                <td><span class="badge bg-secondary" th:text="${chanson.genre}">Genre</span></td>
+                <td th:text="${chanson.dureeFormatee}">3:45</td>
+                <td>
+                    <audio controls preload="none" style="height: 35px; width: 220px;">
+                        <source th:src="@{'/api/chansons/' + ${chanson.id} + '/stream'}" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td class="text-end">
+                    <a th:href="@{'/chansons/modifier/' + ${chanson.id}}" class="btn btn-sm btn-outline-primary btn-action" title="Modifier">
+                        <i class="bi bi-pencil"></i>
+                    </a>
+                    <a th:href="@{'/chansons/supprimer/' + ${chanson.id}}" class="btn btn-sm btn-outline-danger btn-action" title="Supprimer" 
+                       onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette chanson ?')">
+                        <i class="bi bi-trash"></i>
+                    </a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div th:replace="~{layout :: scripts}"></div>
+</body>
+</html>

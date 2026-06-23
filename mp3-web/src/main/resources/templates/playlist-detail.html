@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout :: head(${playlist.nom})}"></head>
+<body>
+
+<div th:replace="~{layout :: navbar}"></div>
+
+<div class="container mt-4 mb-5">
+    <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3">
+        <div>
+            <h2><i class="bi bi-collection-play-fill text-success"></i> <span th:text="${playlist.nom}" id="titre-playlist">Nom</span></h2>
+            <p class="text-muted mb-0">
+                Générée le <span th:text="${#temporals.format(playlist.dateCreation, 'dd/MM/yyyy')}"></span> | 
+                Durée: <span class="fw-bold" th:text="${playlist.dureeTotaleFormatee}"></span>
+                <span th:if="${playlist.dureeMaxSecondes != null}"> / Objectif max: <span th:text="${playlist.dureeMaxSecondes / 60 + ' min'}"></span></span>
+            </p>
+        </div>
+        <div class="d-flex gap-2">
+            <button class="btn btn-outline-primary" onclick="renommer()">
+                <i class="bi bi-pencil"></i> Renommer
+            </button>
+            <a th:href="@{'/api/playlists/' + ${playlist.id} + '/telecharger'}" class="btn btn-primary d-flex align-items-center gap-2">
+                <i class="bi bi-file-earmark-zip-fill"></i> Télécharger ZIP
+            </a>
+        </div>
+    </div>
+
+    <!-- Interface d'édition (Vue de la playlist) -->
+    <div class="row">
+        <!-- Chansons dans la playlist -->
+        <div class="col-md-7 mb-4">
+            <div class="card border-success h-100">
+                <div class="card-header bg-success text-white d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0"><i class="bi bi-list-check"></i> Chansons sélectionnées (<span id="compteur" th:text="${playlist.chansons.size()}">0</span>)</h5>
+                    <button class="btn btn-sm btn-light" onclick="sauvegarderChangements()">Sauvegarder les modifications</button>
+                </div>
+                <div class="card-body p-0">
+                    <ul class="list-group list-group-flush" id="liste-playlist">
+                        <li class="list-group-item d-flex justify-content-between align-items-center" 
+                            th:each="chanson : ${playlist.chansons}" th:data-id="${chanson.id}">
+                            <div>
+                                <h6 class="mb-0 text-primary fw-bold" th:text="${chanson.titre}">Titre</h6>
+                                <small class="text-muted" th:text="${chanson.artiste} + ' - ' + ${chanson.dureeFormatee}"></small>
+                            </div>
+                            <button class="btn btn-sm btn-outline-danger" onclick="retirerDePlaylist(this)"><i class="bi bi-x-lg"></i></button>
+                        </li>
+                        <li class="list-group-item text-center text-muted py-4" id="vide-msg" th:style="${playlist.chansons.empty ? 'display:block' : 'display:none'}">
+                            La playlist est vide.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catalogue disponible pour ajouter -->
+        <div class="col-md-5 mb-4">
+            <div class="card bg-light h-100">
+                <div class="card-header border-bottom">
+                    <h5 class="mb-0">Ajouter des chansons</h5>
+                </div>
+                <div class="card-body p-2" style="max-height: 600px; overflow-y: auto;">
+                    <input type="text" id="recherche-catalogue" class="form-control form-control-sm mb-3" placeholder="Rechercher pour ajouter..." onkeyup="filtrerCatalogue()">
+                    <ul class="list-group list-group-flush" id="liste-catalogue">
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent catalogue-item" 
+                            th:each="c : ${toutesChansons}" th:data-id="${c.id}" th:data-titre="${#strings.toLowerCase(c.titre)}">
+                            <div>
+                                <h6 class="mb-0 fw-bold" th:text="${c.titre}">Titre</h6>
+                                <small class="text-muted" th:text="${c.artiste} + ' - ' + ${c.dureeFormatee}"></small>
+                            </div>
+                            <button class="btn btn-sm btn-outline-success" onclick="ajouterALaPlaylist(this, [[${c.id}]], '[[${c.titre}]]', '[[${c.artiste}]]', '[[${c.dureeFormatee}]]')"><i class="bi bi-plus-lg"></i></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div th:replace="~{layout :: scripts}"></div>
+<script th:inline="javascript">
+    const playlistId = /*[[${playlist.id}]]*/ 0;
+    
+    // Fonction d'ajout a la playlist visuelle
+    function ajouterALaPlaylist(btn, id, titre, artiste, duree) {
+        document.getElementById('vide-msg').style.display = 'none';
+        
+        const liste = document.getElementById('liste-playlist');
+        
+        // Verifier si deja dans la liste
+        let existe = false;
+        liste.querySelectorAll('li[data-id]').forEach(li => {
+            if (li.getAttribute('data-id') == id) existe = true;
+        });
+        
+        if (existe) {
+            alert('Cette chanson est déjà dans la playlist.');
+            return;
+        }
+
+        const li = document.createElement('li');
+        li.className = 'list-group-item d-flex justify-content-between align-items-center border-success bg-light';
+        li.setAttribute('data-id', id);
+        li.innerHTML = `
+            <div>
+                <h6 class="mb-0 text-primary fw-bold">${titre} <span class="badge bg-success ms-1">Nouveau</span></h6>
+                <small class="text-muted">${artiste} - ${duree}</small>
+            </div>
+            <button class="btn btn-sm btn-outline-danger" onclick="retirerDePlaylist(this)"><i class="bi bi-x-lg"></i></button>
+        `;
+        liste.appendChild(li);
+        majCompteur();
+    }
+
+    // Fonction de retrait de la playlist visuelle
+    function retirerDePlaylist(btn) {
+        btn.closest('li').remove();
+        majCompteur();
+        
+        const liste = document.getElementById('liste-playlist');
+        if (liste.querySelectorAll('li[data-id]').length === 0) {
+            document.getElementById('vide-msg').style.display = 'block';
+        }
+    }
+
+    // Mise a jour compteur
+    function majCompteur() {
+        const count = document.getElementById('liste-playlist').querySelectorAll('li[data-id]').length;
+        document.getElementById('compteur').innerText = count;
+    }
+
+    // Filtrage simple du catalogue
+    function filtrerCatalogue() {
+        const terme = document.getElementById('recherche-catalogue').value.toLowerCase();
+        document.querySelectorAll('.catalogue-item').forEach(item => {
+            const titre = item.getAttribute('data-titre');
+            if (titre.includes(terme)) {
+                item.style.setProperty('display', 'flex', 'important');
+            } else {
+                item.style.setProperty('display', 'none', 'important');
+            }
+        });
+    }
+
+    // Renommer
+    function renommer() {
+        const actuel = document.getElementById('titre-playlist').innerText;
+        const nouveau = prompt('Nouveau nom pour la playlist:', actuel);
+        if (nouveau && nouveau.trim() !== '' && nouveau !== actuel) {
+            fetch('/api/playlists/' + playlistId, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ nom: nouveau })
+            }).then(() => {
+                document.getElementById('titre-playlist').innerText = nouveau;
+            });
+        }
+    }
+
+    // Sauvegarder dans la BDD (envoyer les IDs)
+    function sauvegarderChangements() {
+        const ids = [];
+        document.getElementById('liste-playlist').querySelectorAll('li[data-id]').forEach(li => {
+            ids.push(parseInt(li.getAttribute('data-id')));
+        });
+
+        fetch('/api/playlists/' + playlistId, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ chansonIds: ids })
+        })
+        .then(res => {
+            if (!res.ok) throw new Error("Erreur de sauvegarde");
+            alert("Playlist mise à jour avec succès !");
+            window.location.reload();
+        })
+        .catch(err => alert(err.message));
+    }
+</script>
+</body>
+</html>

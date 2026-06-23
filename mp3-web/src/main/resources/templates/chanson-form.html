@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout :: head(${chanson.id == null ? 'Ajouter une Chanson' : 'Modifier la Chanson'})}"></head>
+<body>
+
+<div th:replace="~{layout :: navbar}"></div>
+
+<div class="container mt-4 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="card-title mb-0" th:text="${chanson.id == null ? 'Ajouter une nouvelle chanson' : 'Modifier la chanson'}">Ajouter</h3>
+                </div>
+                <div class="card-body">
+                    <form th:action="@{/chansons/sauvegarder}" th:object="${chanson}" method="post">
+                        <!-- ID cache pour la modification -->
+                        <input type="hidden" th:field="*{id}">
+                        <input type="hidden" th:field="*{hashFichier}">
+                        <input type="hidden" th:field="*{cheminFichier}">
+                        
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <label for="titre" class="form-label">Titre *</label>
+                                <input type="text" class="form-control" id="titre" th:field="*{titre}" required>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="artiste" class="form-label">Artiste</label>
+                                <input type="text" class="form-control" id="artiste" th:field="*{artiste}">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="album" class="form-label">Album</label>
+                                <input type="text" class="form-control" id="album" th:field="*{album}">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="genre" class="form-label">Genre</label>
+                                <input type="text" class="form-control" id="genre" th:field="*{genre}">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="langue" class="form-label">Langue</label>
+                                <input type="text" class="form-control" id="langue" th:field="*{langue}">
+                            </div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <label for="duree" class="form-label">Durée (en secondes)</label>
+                                <div class="input-group">
+                                    <input type="number" class="form-control" id="duree" th:field="*{dureeSecondes}" min="0">
+                                    <span class="input-group-text">sec</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="annee" class="form-label">Année</label>
+                                <input type="number" class="form-control" id="annee" th:field="*{annee}" min="1900" max="2100">
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <a th:href="@{/chansons}" class="btn btn-secondary">Annuler</a>
+                            <button type="submit" class="btn btn-success">
+                                <i class="bi bi-save"></i> Enregistrer
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div th:replace="~{layout :: scripts}"></div>
+</body>
+</html>

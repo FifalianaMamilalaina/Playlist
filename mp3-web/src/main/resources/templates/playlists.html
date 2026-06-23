@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout :: head('Playlists')}"></head>
+<body>
+
+<div th:replace="~{layout :: navbar}"></div>
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="bi bi-collection-play"></i> Mes Playlists</h2>
+        <a th:href="@{/playlists/generer}" class="btn btn-success"><i class="bi bi-magic"></i> Générer une playlist</a>
+    </div>
+
+    <div th:if="${playlists.empty}" class="alert alert-warning text-center py-4">
+        <i class="bi bi-exclamation-triangle-fill me-2"></i> Vous n'avez pas encore de playlist. Générez-en une selon vos critères !
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" th:unless="${playlists.empty}">
+        <div class="col" th:each="playlist : ${playlists}">
+            <div class="card h-100 border-success shadow-sm">
+                <div class="card-header bg-success text-white">
+                    <h5 class="card-title mb-0" th:text="${playlist.nom}">Nom Playlist</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-music-note-list text-success me-2"></i> <strong th:text="${playlist.chansons.size()}">0</strong> chansons</li>
+                        <li class="mb-2"><i class="bi bi-stopwatch text-success me-2"></i> Durée : <strong th:text="${playlist.dureeTotaleFormatee}">0m 0s</strong></li>
+                        <li class="mb-2" th:if="${playlist.dureeMaxSecondes != null}">
+                            <i class="bi bi-bullseye text-success me-2"></i> Objectif max : <span th:text="${playlist.dureeMaxSecondes / 60 + ' min'}"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer bg-transparent border-top-0 d-flex justify-content-between pb-3">
+                    <a th:href="@{'/playlists/' + ${playlist.id}}" class="btn btn-outline-success"><i class="bi bi-eye"></i> Voir & Modifier</a>
+                    <a th:href="@{'/api/playlists/' + ${playlist.id} + '/telecharger'}" class="btn btn-primary"><i class="bi bi-download"></i> ZIP</a>
+                    <a th:href="@{'/playlists/supprimer/' + ${playlist.id}}" class="btn btn-outline-danger" title="Supprimer"
+                       onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette playlist ?')">
+                        <i class="bi bi-trash"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div th:replace="~{layout :: scripts}"></div>
+</body>
+</html>
