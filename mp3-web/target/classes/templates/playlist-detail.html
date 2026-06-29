@@ -42,7 +42,12 @@
                                 <h6 class="mb-0 text-primary fw-bold" th:text="${chanson.titre}">Titre</h6>
                                 <small class="text-muted" th:text="${chanson.artiste} + ' - ' + ${chanson.dureeFormatee}"></small>
                             </div>
-                            <button class="btn btn-sm btn-outline-danger" onclick="retirerDePlaylist(this)"><i class="bi bi-x-lg"></i></button>
+                            <div class="d-flex align-items-center gap-2">
+                                <audio controls preload="none" style="height: 35px; width: 180px;">
+                                    <source th:src="@{'/api/chansons/' + ${chanson.id} + '/stream'}" type="audio/mpeg">
+                                </audio>
+                                <button class="btn btn-sm btn-outline-danger" onclick="retirerDePlaylist(this)"><i class="bi bi-x-lg"></i></button>
+                            </div>
                         </li>
                         <li class="list-group-item text-center text-muted py-4" id="vide-msg" th:style="${playlist.chansons.empty ? 'display:block' : 'display:none'}">
                             La playlist est vide.
@@ -67,7 +72,12 @@
                                 <h6 class="mb-0 fw-bold" th:text="${c.titre}">Titre</h6>
                                 <small class="text-muted" th:text="${c.artiste} + ' - ' + ${c.dureeFormatee}"></small>
                             </div>
-                            <button class="btn btn-sm btn-outline-success" onclick="ajouterALaPlaylist(this, [[${c.id}]], '[[${c.titre}]]', '[[${c.artiste}]]', '[[${c.dureeFormatee}]]')"><i class="bi bi-plus-lg"></i></button>
+                            <div class="d-flex align-items-center gap-1">
+                                <audio controls preload="none" style="height: 35px; width: 120px;">
+                                    <source th:src="@{'/api/chansons/' + ${c.id} + '/stream'}" type="audio/mpeg">
+                                </audio>
+                                <button class="btn btn-sm btn-outline-success" onclick="ajouterALaPlaylist(this, [[${c.id}]], '[[${c.titre}]]', '[[${c.artiste}]]', '[[${c.dureeFormatee}]]')"><i class="bi bi-plus-lg"></i></button>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -105,7 +115,12 @@
                 <h6 class="mb-0 text-primary fw-bold">${titre} <span class="badge bg-success ms-1">Nouveau</span></h6>
                 <small class="text-muted">${artiste} - ${duree}</small>
             </div>
-            <button class="btn btn-sm btn-outline-danger" onclick="retirerDePlaylist(this)"><i class="bi bi-x-lg"></i></button>
+            <div class="d-flex align-items-center gap-2">
+                <audio controls preload="none" style="height: 35px; width: 180px;">
+                    <source src="/api/chansons/${id}/stream" type="audio/mpeg">
+                </audio>
+                <button class="btn btn-sm btn-outline-danger" onclick="retirerDePlaylist(this)"><i class="bi bi-x-lg"></i></button>
+            </div>
         `;
         liste.appendChild(li);
         majCompteur();
