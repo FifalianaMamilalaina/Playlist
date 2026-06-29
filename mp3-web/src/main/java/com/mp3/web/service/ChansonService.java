@@ -75,15 +75,21 @@ public class ChansonService {
      * sans depasser la duree maximale.
      */
     public Playlist genererPlaylist(String nom, Integer dureeMaxSecondes,
-                                    String genre, String langue,
+                                    List<String> genres, List<String> langues,
                                     List<String> artistes, Integer anneeMin, Integer anneeMax) {
+
+        boolean hasGenres = genres != null && !genres.isEmpty();
+        List<String> queryGenres = hasGenres ? genres : Collections.singletonList("");
+
+        boolean hasLangues = langues != null && !langues.isEmpty();
+        List<String> queryLangues = hasLangues ? langues : Collections.singletonList("");
 
         boolean hasArtistes = artistes != null && !artistes.isEmpty();
         List<String> queryArtistes = hasArtistes ? artistes : Collections.singletonList("");
 
         // Rechercher les chansons correspondant aux criteres
         List<Chanson> chansonsCorrespondantes = chansonRepository.rechercherParCriteres(
-                genre, langue, hasArtistes, queryArtistes, anneeMin, anneeMax
+                hasGenres, queryGenres, hasLangues, queryLangues, hasArtistes, queryArtistes, anneeMin, anneeMax
         );
 
         // Melanger aleatoirement les resultats

@@ -42,17 +42,18 @@ public interface ChansonRepository extends JpaRepository<Chanson, Long> {
     @Query("SELECT DISTINCT c.artiste FROM Chanson c WHERE c.artiste IS NOT NULL ORDER BY c.artiste")
     List<String> findDistinctArtistes();
 
-    // Recherche multi-criteres pour generation de playlist
     @Query("SELECT c FROM Chanson c WHERE " +
-           "(CAST(:genre AS String) IS NULL OR LOWER(c.genre) = LOWER(CAST(:genre AS String))) AND " +
-           "(CAST(:langue AS String) IS NULL OR LOWER(c.langue) = LOWER(CAST(:langue AS String))) AND " +
+           "(:hasGenres = false OR c.genre IN :genres) AND " +
+           "(:hasLangues = false OR c.langue IN :langues) AND " +
            "(:hasArtistes = false OR c.artiste IN :artistes) AND " +
            "(CAST(:anneeMin AS Integer) IS NULL OR c.annee >= :anneeMin) AND " +
            "(CAST(:anneeMax AS Integer) IS NULL OR c.annee <= :anneeMax) " +
            "ORDER BY c.titre")
     List<Chanson> rechercherParCriteres(
-            @Param("genre") String genre,
-            @Param("langue") String langue,
+            @Param("hasGenres") boolean hasGenres,
+            @Param("genres") List<String> genres,
+            @Param("hasLangues") boolean hasLangues,
+            @Param("langues") List<String> langues,
             @Param("hasArtistes") boolean hasArtistes,
             @Param("artistes") List<String> artistes,
             @Param("anneeMin") Integer anneeMin,

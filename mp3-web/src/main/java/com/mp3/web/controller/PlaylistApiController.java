@@ -43,35 +43,34 @@ public class PlaylistApiController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
+    // Helper method pour eviter la duplication
+    private List<String> extraireListe(Object obj) {
+        if (obj instanceof List) {
+            @SuppressWarnings("unchecked")
+            List<String> list = (List<String>) obj;
+            return list.isEmpty() ? null : list;
+        }
+        return null;
+    }
+
     // POST /api/playlists/generer - Generer une playlist selon criteres
     @PostMapping("/generer")
     public ResponseEntity<Playlist> generer(@RequestBody Map<String, Object> criteres) {
         String nom = (String) criteres.getOrDefault("nom", "Ma Playlist");
         Integer dureeMax = criteres.get("dureeMaxSecondes") != null
                 ? Integer.parseInt(criteres.get("dureeMaxSecondes").toString()) : null;
-        String genre = (String) criteres.get("genre");
-        String langue = (String) criteres.get("langue");
-        
-        Object artistesObj = criteres.get("artistes");
-        List<String> artistes = null;
-        if (artistesObj instanceof List) {
-            @SuppressWarnings("unchecked")
-            List<String> list = (List<String>) artistesObj;
-            artistes = list;
-            if (artistes.isEmpty()) artistes = null;
-        }
+
+        List<String> genres = extraireListe(criteres.get("genres"));
+        List<String> langues = extraireListe(criteres.get("langues"));
+        List<String> artistes = extraireListe(criteres.get("artistes"));
 
         Integer anneeMin = criteres.get("anneeMin") != null
                 ? Integer.parseInt(criteres.get("anneeMin").toString()) : null;
         Integer anneeMax = criteres.get("anneeMax") != null
                 ? Integer.parseInt(criteres.get("anneeMax").toString()) : null;
 
-        // Traiter les chaines vides comme null
-        if (genre != null && genre.trim().isEmpty()) genre = null;
-        if (langue != null && langue.trim().isEmpty()) langue = null;
-
         Playlist playlist = chansonService.genererPlaylist(
-                nom, dureeMax, genre, langue, artistes, anneeMin, anneeMax
+                nom, dureeMax, genres, langues, artistes, anneeMin, anneeMax
         );
 
         return ResponseEntity.status(201).body(playlist);

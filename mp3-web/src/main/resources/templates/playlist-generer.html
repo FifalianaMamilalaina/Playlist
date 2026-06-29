@@ -41,18 +41,16 @@
 
                         <div class="row mb-3">
                             <div class="col-md-6">
-                                <label for="genre" class="form-label">Genre musical</label>
-                                <input list="genresList" class="form-control" id="genre" name="genre" placeholder="Saisir ou choisir un genre...">
-                                <datalist id="genresList">
-                                    <option th:each="g : ${genres}" th:value="${g}"></option>
-                                </datalist>
+                                <label for="genres" class="form-label">Genres musicaux (maintenir Ctrl)</label>
+                                <select class="form-select" id="genres" name="genres" multiple size="4">
+                                    <option th:each="g : ${genres}" th:value="${g}" th:text="${g}"></option>
+                                </select>
                             </div>
                             <div class="col-md-6">
-                                <label for="langue" class="form-label">Langue</label>
-                                <input list="languesList" class="form-control" id="langue" name="langue" placeholder="Saisir ou choisir une langue...">
-                                <datalist id="languesList">
-                                    <option th:each="l : ${langues}" th:value="${l}"></option>
-                                </datalist>
+                                <label for="langues" class="form-label">Langues (maintenir Ctrl)</label>
+                                <select class="form-select" id="langues" name="langues" multiple size="4">
+                                    <option th:each="l : ${langues}" th:value="${l}" th:text="${l}"></option>
+                                </select>
                             </div>
                         </div>
 
@@ -93,11 +91,17 @@
         const selectArtistes = document.getElementById('artistes');
         const artistesSelectionnes = Array.from(selectArtistes.selectedOptions).map(opt => opt.value);
 
+        const selectGenres = document.getElementById('genres');
+        const genresSelectionnes = selectGenres ? Array.from(selectGenres.selectedOptions).map(opt => opt.value) : [];
+
+        const selectLangues = document.getElementById('langues');
+        const languesSelectionnes = selectLangues ? Array.from(selectLangues.selectedOptions).map(opt => opt.value) : [];
+
         const criteres = {
             nom: nom,
             dureeMaxSecondes: dureeMaxSecondes,
-            genre: document.getElementById('genre').value,
-            langue: document.getElementById('langue').value,
+            genres: genresSelectionnes,
+            langues: languesSelectionnes,
             artistes: artistesSelectionnes
         };
 
