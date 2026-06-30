@@ -28,8 +28,16 @@ Application web
 
 }
 
-
-
-modification{
-    
+Nouvelle fonctionnalite
+{
+    partie desktop{
+        programme 3{
+            on va avoir un nouveau fichier blacklist
+            BlackList se divise en 2 parties{
+                - BlackList genre
+                - BlackList artiste
+            }(insensible a la casse)
+            avant d'envoyer dans api, le programme 3 doit verifier ce fichier et juste supprimer du repertoire les chansons correspondantes sans les envoyes dans api
+        }
+    }
 }

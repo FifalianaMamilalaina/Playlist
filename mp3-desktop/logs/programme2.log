@@ -1,2 +1,28 @@
-2026-06-29 08:20:38.539 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
-2026-06-29 08:20:38.565 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-06-30 18:53:45.060 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-06-30 18:53:45.135 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-06-30 19:03:05.142 [Thread-P2] WARN  com.mp3.desktop.Programme2 - Programme 2 interrompu
+2026-06-30 19:03:20.983 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-06-30 19:03:21.038 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-06-30 19:05:51.450 [pool-1-thread-75] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-06-30 19:05:51.624 [pool-1-thread-75] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) :  - Bodo
+2026-06-30 19:05:51.635 [pool-1-thread-76] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-06-30 19:05:51.682 [pool-1-thread-76] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : Bekoto Augustin - Antanambao
+2026-06-30 19:05:51.685 [pool-1-thread-78] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-06-30 19:05:51.742 [pool-1-thread-78] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-06-30 19:08:41.870 [pool-1-thread-148] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-06-30 19:08:41.894 [pool-1-thread-148] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) :  - Bodo
+2026-06-30 19:08:41.894 [pool-1-thread-150] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-06-30 19:08:41.933 [pool-1-thread-150] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : Bekoto Augustin - Antanambao
+2026-06-30 19:08:41.938 [pool-1-thread-152] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-06-30 19:08:41.972 [pool-1-thread-152] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-06-30 19:29:59.274 [Thread-P2] WARN  com.mp3.desktop.Programme2 - Programme 2 interrompu
+2026-06-30 19:30:21.124 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-06-30 19:30:21.139 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-06-30 19:31:01.533 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-06-30 19:31:01.545 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-06-30 19:31:31.663 [pool-1-thread-26] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-06-30 19:31:31.744 [pool-1-thread-26] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) :  - Bodo
+2026-06-30 19:31:31.744 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-06-30 19:31:31.785 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : Bekoto Augustin - Antanambao
+2026-06-30 19:31:31.788 [pool-1-thread-30] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-06-30 19:31:31.835 [pool-1-thread-30] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO

@@ -16,8 +16,8 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Duration;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Programme 3 :
@@ -35,10 +35,18 @@ public class Programme3 implements Runnable {
             .build();
 
     private static final String API_BASE_URL = "http://localhost:8080/api/chansons";
+    private static final String BLACKLIST_FILE = "blacklist.txt";
+
+    // Listes noires chargees en memoire
+    private Set<String> blacklistGenres = new HashSet<>();
+    private Set<String> blacklistArtistes = new HashSet<>();
 
     @Override
     public void run() {
         logger.info("=== Demarrage du Programme 3 ===");
+
+        // Charger la blacklist au demarrage
+        chargerBlacklist();
 
         try {
             Connection connection = RabbitMQConfig.getFactory().newConnection();
@@ -98,6 +106,15 @@ public class Programme3 implements Runnable {
     }
 
     private boolean traiterMetadata(Programme2.Mp3Metadata metadata) throws Exception {
+        // 0. Verifier la blacklist AVANT tout envoi
+        if (estBlackliste(metadata)) {
+            logger.info("BLACKLIST - Chanson bloquee : '{}' (artiste='{}', genre='{}')."
+                    + " Suppression du fichier sans envoi API.",
+                    metadata.titre, metadata.artiste, metadata.genre);
+            supprimerFichier(metadata.cheminFichier);
+            return true;
+        }
+
         // 1. Verifier si la chanson existe deja
         boolean existe = verifierSiExiste(metadata.hashFichier);
         
@@ -222,5 +239,79 @@ public class Programme3 implements Runnable {
                 logger.warn("Impossible de supprimer le fichier : {}", chemin);
             }
         }
+    }
+
+    /**
+     * Charge le fichier blacklist.txt et remplit les sets de genres/artistes bloques.
+     * Le fichier est relu a chaque demarrage du programme.
+     */
+    private void chargerBlacklist() {
+        Path blacklistPath = Path.of(BLACKLIST_FILE);
+        if (!Files.exists(blacklistPath)) {
+            logger.info("Aucun fichier blacklist.txt trouve. Aucun filtrage ne sera applique.");
+            return;
+        }
+
+        try {
+            List<String> lignes = Files.readAllLines(blacklistPath, StandardCharsets.UTF_8);
+            String sectionCourante = null;
+
+            for (String ligne : lignes) {
+                String trimmed = ligne.trim();
+
+                // Ignorer les lignes vides et les commentaires
+                if (trimmed.isEmpty() || trimmed.startsWith("#")) continue;
+
+                // Detecter les sections
+                if (trimmed.equalsIgnoreCase("[GENRES]")) {
+                    sectionCourante = "GENRES";
+                    continue;
+                } else if (trimmed.equalsIgnoreCase("[ARTISTES]")) {
+                    sectionCourante = "ARTISTES";
+                    continue;
+                }
+
+                // Ajouter l'entree dans la bonne liste (en minuscules pour insensibilite a la casse)
+                if ("GENRES".equals(sectionCourante)) {
+                    blacklistGenres.add(trimmed.toLowerCase());
+                } else if ("ARTISTES".equals(sectionCourante)) {
+                    blacklistArtistes.add(trimmed.toLowerCase());
+                }
+            }
+
+            logger.info("Blacklist chargee : {} genre(s) bloques, {} artiste(s) bloques.",
+                    blacklistGenres.size(), blacklistArtistes.size());
+            if (!blacklistGenres.isEmpty()) {
+                logger.info("  Genres bloques : {}", blacklistGenres);
+            }
+            if (!blacklistArtistes.isEmpty()) {
+                logger.info("  Artistes bloques : {}", blacklistArtistes);
+            }
+
+        } catch (IOException e) {
+            logger.error("Erreur lors de la lecture du fichier blacklist.txt", e);
+        }
+    }
+
+    /**
+     * Verifie si une chanson correspond a la blacklist (genre ou artiste).
+     * La comparaison est insensible a la casse.
+     */
+    private boolean estBlackliste(Programme2.Mp3Metadata metadata) {
+        // Verifier le genre
+        if (metadata.genre != null && !metadata.genre.isEmpty()) {
+            if (blacklistGenres.contains(metadata.genre.toLowerCase())) {
+                return true;
+            }
+        }
+
+        // Verifier l'artiste
+        if (metadata.artiste != null && !metadata.artiste.isEmpty()) {
+            if (blacklistArtistes.contains(metadata.artiste.toLowerCase())) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
