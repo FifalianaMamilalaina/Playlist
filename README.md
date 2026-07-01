@@ -104,10 +104,40 @@ Artiste Inconnu
 
 ---
 
+## 🔀 Fusion de Playlists
+
+Depuis la page **Playlists** (`http://localhost:8080/playlists`), vous pouvez fusionner plusieurs playlists en une seule :
+
+1. Cochez les cases en haut à droite de chaque playlist à fusionner (minimum 2).
+2. Un bouton jaune **"Fusionner la sélection"** apparaît automatiquement en haut de la page.
+3. Cliquez dessus, entrez le nom de la nouvelle playlist.
+4. La nouvelle playlist contiendra toutes les chansons des playlists sélectionnées, **sans doublon**.
+
+---
+
+## ⏱️ Limite de Durée (Filtrage Automatique)
+
+Le fichier `mp3-desktop/limite_duree.txt` permet de définir une durée maximale (en secondes) pour les chansons acceptées.
+
+### Format du fichier
+```
+# Durée maximale en secondes
+3600
+```
+
+### Fonctionnement
+- Les lignes commençant par `#` sont des **commentaires** (ignorées)
+- Si la durée d'une chanson **dépasse** la limite, elle n'est **ni envoyée à l'API, ni supprimée** du répertoire `chanson/`
+- Le fichier est lu au **démarrage** du Programme 3
+- Le log affiche : `LIMITE DUREE - Chanson bloquee : 'xxx' (300 s > 120 s)`
+
+---
+
 ## 🗒️ Logs et Surveillance (Debug)
 
 Si besoin, l'application desktop intègre un suivi rigoureux pour diagnostiquer les traitements séparément :
 Chaque programme écrit son avancement dans les rapports positionnés dans : `mp3-desktop/logs/`
 * `programme1.log` (Détection de dossier)
 * `programme2.log` (Extraction MD5 & Tags MP3agic)
-* `programme3.log` (Envoi API Rest & Anti-doublons POST & Blacklist)
+* `programme3.log` (Envoi API Rest & Anti-doublons POST & Blacklist & Limite durée)
+* `programme4.log` (Suppression des fichiers du disque)

@@ -1,5 +1,4 @@
 [GENRES]
-salegy
+
 
 [ARTISTES]
-Bekoto Augustin

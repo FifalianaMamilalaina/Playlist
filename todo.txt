@@ -41,3 +41,18 @@ Nouvelle fonctionnalite
         }
     }
 }
+
+
+partie web{
+    ajout fonctionnalite dans la liste Playlist
+    ajout d'une possibilite de fusion de playlist{
+        ajout de checbox a chaque playlist dans la list des playlist, quand on check, on va avoir un bouton fusionner, 
+        on aura alors un nouveau playlist(on peu choisir son nom) avec les chansons des playlist dont on a fusioner
+    }
+
+
+}
+
+partie desktop{
+    p3: apres avoir recu la liste, on aura un nouveau fichier avec un chiffre (seconde), c sera une limite, toute chansons dont la duree depasse cet limite, ne sera pas supprimee du repertoire ni envoyer dans l'api
+}

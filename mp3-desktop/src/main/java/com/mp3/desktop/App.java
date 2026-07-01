@@ -22,11 +22,15 @@ public class App {
         Thread threadP2 = new Thread(new Programme2(), "Thread-P2");
         threadP2.start();
 
-        // Lancement du Programme 3 (Envoi API + Suppression)
+        // Lancement du Programme 3 (Envoi API + Anti-doublons)
         Thread threadP3 = new Thread(new Programme3(), "Thread-P3");
         threadP3.start();
 
-        logger.info("Les 3 programmes tournent en parallele.");
+        // Lancement du Programme 4 (Suppression fichiers)
+        Thread threadP4 = new Thread(new Programme4(), "Thread-P4");
+        threadP4.start();
+
+        logger.info("Les 4 programmes tournent en parallele.");
         
         // Ajouter un hook pour stopper proprement
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
@@ -34,6 +38,7 @@ public class App {
             threadP1.interrupt();
             threadP2.interrupt();
             threadP3.interrupt();
+            threadP4.interrupt();
         }));
     }
 }

@@ -8,7 +8,12 @@
 <div class="container mt-4">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2><i class="bi bi-collection-play"></i> Mes Playlists</h2>
-        <a th:href="@{/playlists/generer}" class="btn btn-success"><i class="bi bi-magic"></i> Générer une playlist</a>
+        <div class="d-flex gap-2">
+            <button id="btn-fusionner" class="btn btn-warning d-none" onclick="fusionnerPlaylists()">
+                <i class="bi bi-intersect"></i> Fusionner la sélection (<span id="count-fusion">0</span>)
+            </button>
+            <a th:href="@{/playlists/generer}" class="btn btn-success"><i class="bi bi-magic"></i> Générer une playlist</a>
+        </div>
     </div>
 
     <div th:if="${playlists.empty}" class="alert alert-warning text-center py-4">
@@ -17,8 +22,11 @@
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" th:unless="${playlists.empty}">
         <div class="col" th:each="playlist : ${playlists}">
-            <div class="card h-100 border-success shadow-sm">
-                <div class="card-header bg-success text-white">
+            <div class="card h-100 border-success shadow-sm position-relative">
+                <div class="position-absolute" style="top: 10px; right: 10px; z-index: 10;">
+                    <input class="form-check-input playlist-checkbox" type="checkbox" th:value="${playlist.id}" style="width: 25px; height: 25px; cursor: pointer;" onchange="verifierCheckboxes()">
+                </div>
+                <div class="card-header bg-success text-white pe-5">
                     <h5 class="card-title mb-0" th:text="${playlist.nom}">Nom Playlist</h5>
                 </div>
                 <div class="card-body">
@@ -44,5 +52,43 @@
 </div>
 
 <div th:replace="~{layout :: scripts}"></div>
+<script>
+    function verifierCheckboxes() {
+        const checkboxes = document.querySelectorAll('.playlist-checkbox:checked');
+        const btnFusionner = document.getElementById('btn-fusionner');
+        const countFusion = document.getElementById('count-fusion');
+        
+        if (checkboxes.length > 1) {
+            countFusion.innerText = checkboxes.length;
+            btnFusionner.classList.remove('d-none');
+        } else {
+            btnFusionner.classList.add('d-none');
+        }
+    }
+
+    function fusionnerPlaylists() {
+        const checkboxes = document.querySelectorAll('.playlist-checkbox:checked');
+        if (checkboxes.length < 2) return;
+        
+        const ids = Array.from(checkboxes).map(cb => parseInt(cb.value));
+        
+        const nouveauNom = prompt('Entrez le nom de la nouvelle playlist fusionnée :');
+        if (!nouveauNom || nouveauNom.trim() === '') {
+            return;
+        }
+        
+        fetch('/api/playlists/fusionner', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ playlistIds: ids, nom: nouveauNom })
+        })
+        .then(res => {
+            if (!res.ok) throw new Error("Erreur de sauvegarde");
+            alert("Fusion terminée avec succès !");
+            window.location.reload();
+        })
+        .catch(err => alert(err.message));
+    }
+</script>
 </body>
 </html>

@@ -36,17 +36,20 @@ public class Programme3 implements Runnable {
 
     private static final String API_BASE_URL = "http://localhost:8080/api/chansons";
     private static final String BLACKLIST_FILE = "blacklist.txt";
+    private static final String LIMITE_DUREE_FILE = "limite_duree.txt";
 
     // Listes noires chargees en memoire
     private Set<String> blacklistGenres = new HashSet<>();
     private Set<String> blacklistArtistes = new HashSet<>();
+    private Integer limiteDureeSecondes = null;
 
     @Override
     public void run() {
         logger.info("=== Demarrage du Programme 3 ===");
 
-        // Charger la blacklist au demarrage
+        // Charger la blacklist et la limite au demarrage
         chargerBlacklist();
+        chargerLimiteDuree();
 
         try {
             Connection connection = RabbitMQConfig.getFactory().newConnection();
@@ -69,7 +72,7 @@ public class Programme3 implements Runnable {
 
                     while (!success && retryCount <= 1) {
                         try {
-                            success = traiterMetadata(metadata);
+                            success = traiterMetadata(metadata, channel);
                         } catch (Exception ex) {
                             retryCount++;
                             logger.error("Erreur API - Tentative {}/2 pour {}", retryCount, metadata.titre, ex);
@@ -105,14 +108,25 @@ public class Programme3 implements Runnable {
         }
     }
 
-    private boolean traiterMetadata(Programme2.Mp3Metadata metadata) throws Exception {
-        // 0. Verifier la blacklist AVANT tout envoi
+    private boolean traiterMetadata(Programme2.Mp3Metadata metadata, Channel channel) throws Exception {
+        // 0.a Verifier la blacklist AVANT tout envoi
         if (estBlackliste(metadata)) {
             logger.info("BLACKLIST - Chanson bloquee : '{}' (artiste='{}', genre='{}')."
-                    + " Suppression du fichier sans envoi API.",
+                    + " Demande de suppression.",
                     metadata.titre, metadata.artiste, metadata.genre);
-            supprimerFichier(metadata.cheminFichier);
+            demanderSuppression(metadata.cheminFichier, channel);
             return true;
+        }
+
+        // 0.b Verifier la limite de duree
+        if (limiteDureeSecondes != null && metadata.dureeSecondes != null) {
+            if (metadata.dureeSecondes > limiteDureeSecondes) {
+                logger.info("LIMITE DUREE - Chanson bloquee : '{}' ({} s > {} s)."
+                        + " Le fichier n'est pas envoye ni supprime.",
+                        metadata.titre, metadata.dureeSecondes, limiteDureeSecondes);
+                // On retourne true pour accuser reception dans la queue
+                return true; 
+            }
         }
 
         // 1. Verifier si la chanson existe deja
@@ -120,7 +134,7 @@ public class Programme3 implements Runnable {
         
         if (existe) {
             logger.info("DOUBLON detecte pour (hash={}): {}. On ne l'envoie pas.", metadata.hashFichier, metadata.titre);
-            supprimerFichier(metadata.cheminFichier);
+            demanderSuppression(metadata.cheminFichier, channel);
             return true; 
         }
 
@@ -129,9 +143,9 @@ public class Programme3 implements Runnable {
         boolean apiSuccess = uploadVersApi(metadata);
 
         if (apiSuccess) {
-            // 3. Supprimer le fichier
-            logger.info("Succes de l'API. Suppression du fichier d'origine : {}", metadata.cheminFichier);
-            supprimerFichier(metadata.cheminFichier);
+            // 3. Demander la suppression du fichier au Programme 4
+            logger.info("Succes de l'API. Demande de suppression pour : {}", metadata.cheminFichier);
+            demanderSuppression(metadata.cheminFichier, channel);
             return true;
         }
         
@@ -229,16 +243,9 @@ public class Programme3 implements Runnable {
         baos.write("\r\n".getBytes(StandardCharsets.UTF_8));
     }
 
-    private void supprimerFichier(String chemin) {
-        File file = new File(chemin);
-        if (file.exists()) {
-            boolean deleted = file.delete();
-            if (deleted) {
-                logger.info("Fichier supprime : {}", chemin);
-            } else {
-                logger.warn("Impossible de supprimer le fichier : {}", chemin);
-            }
-        }
+    private void demanderSuppression(String chemin, Channel channel) throws Exception {
+        channel.basicPublish("", RabbitMQConfig.QUEUE_SUPPRESSION, null, chemin.getBytes(StandardCharsets.UTF_8));
+        logger.debug("Message de suppression envoye dans {} pour le fichier: {}", RabbitMQConfig.QUEUE_SUPPRESSION, chemin);
     }
 
     /**
@@ -313,5 +320,35 @@ public class Programme3 implements Runnable {
         }
 
         return false;
+    }
+
+    /**
+     * Charge la limite de duree depuis limite_duree.txt
+     */
+    private void chargerLimiteDuree() {
+        Path path = Path.of(LIMITE_DUREE_FILE);
+        if (!Files.exists(path)) {
+            logger.info("Aucun fichier limite_duree.txt trouve. Aucune limite de duree ne sera appliquee.");
+            return;
+        }
+
+        try {
+            List<String> lignes = Files.readAllLines(path, StandardCharsets.UTF_8);
+            for (String ligne : lignes) {
+                String trimmed = ligne.trim();
+                if (!trimmed.isEmpty() && !trimmed.startsWith("#")) {
+                    try {
+                        limiteDureeSecondes = Integer.parseInt(trimmed);
+                        logger.info("Limite de duree chargee : {} secondes ({} min)", 
+                                limiteDureeSecondes, limiteDureeSecondes / 60);
+                        return;
+                    } catch (NumberFormatException e) {
+                        logger.warn("Format de limite de duree invalide : {}", trimmed);
+                    }
+                }
+            }
+        } catch (IOException e) {
+            logger.error("Erreur lors de la lecture du fichier limite_duree.txt", e);
+        }
     }
 }
