@@ -1,58 +1,309 @@
-2026-06-30 18:53:45.510 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
-2026-06-30 18:53:45.523 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
-2026-06-30 19:03:05.142 [Thread-P3] WARN  com.mp3.desktop.Programme3 - Programme 3 interrompu
-2026-06-30 19:03:21.412 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
-2026-06-30 19:03:21.416 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Blacklist chargee : 0 genre(s) bloques, 0 artiste(s) bloques.
-2026-06-30 19:03:21.427 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
-2026-06-30 19:05:51.635 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Bodo
-2026-06-30 19:05:51.893 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Bodo
-2026-06-30 19:05:52.070 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Chanson 'Bodo' uploadee avec succes
-2026-06-30 19:05:52.070 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
-2026-06-30 19:05:52.107 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
-2026-06-30 19:05:52.109 [pool-1-thread-79] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Antanambao
-2026-06-30 19:05:52.120 [pool-1-thread-79] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Antanambao
-2026-06-30 19:05:52.234 [pool-1-thread-79] INFO  com.mp3.desktop.Programme3 - Chanson 'Antanambao' uploadee avec succes
-2026-06-30 19:05:52.234 [pool-1-thread-79] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
-2026-06-30 19:05:52.254 [pool-1-thread-79] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
-2026-06-30 19:05:52.256 [pool-1-thread-80] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
-2026-06-30 19:05:52.261 [pool-1-thread-80] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : IAO
-2026-06-30 19:05:52.355 [pool-1-thread-80] INFO  com.mp3.desktop.Programme3 - Chanson 'IAO' uploadee avec succes
-2026-06-30 19:05:52.355 [pool-1-thread-80] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
-2026-06-30 19:05:52.375 [pool-1-thread-80] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
-2026-06-30 19:08:41.894 [pool-1-thread-151] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Bodo
-2026-06-30 19:08:41.910 [pool-1-thread-151] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Bodo
-2026-06-30 19:08:42.007 [pool-1-thread-151] INFO  com.mp3.desktop.Programme3 - Chanson 'Bodo' uploadee avec succes
-2026-06-30 19:08:42.007 [pool-1-thread-151] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
-2026-06-30 19:08:42.016 [pool-1-thread-151] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
-2026-06-30 19:08:42.019 [pool-1-thread-153] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Antanambao
-2026-06-30 19:08:42.024 [pool-1-thread-153] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Antanambao
-2026-06-30 19:08:42.107 [pool-1-thread-153] INFO  com.mp3.desktop.Programme3 - Chanson 'Antanambao' uploadee avec succes
-2026-06-30 19:08:42.108 [pool-1-thread-153] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
-2026-06-30 19:08:42.112 [pool-1-thread-153] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
-2026-06-30 19:08:42.115 [pool-1-thread-154] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
-2026-06-30 19:08:42.128 [pool-1-thread-154] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : IAO
-2026-06-30 19:08:42.206 [pool-1-thread-154] INFO  com.mp3.desktop.Programme3 - Chanson 'IAO' uploadee avec succes
-2026-06-30 19:08:42.206 [pool-1-thread-154] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
-2026-06-30 19:08:42.216 [pool-1-thread-154] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
-2026-06-30 19:29:59.274 [Thread-P3] WARN  com.mp3.desktop.Programme3 - Programme 3 interrompu
-2026-06-30 19:30:21.493 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
-2026-06-30 19:30:21.493 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Blacklist chargee : 1 genre(s) bloques, 1 artiste(s) bloques.
-2026-06-30 19:30:21.493 [Thread-P3] INFO  com.mp3.desktop.Programme3 -   Genres bloques : [salegy]
-2026-06-30 19:30:21.493 [Thread-P3] INFO  com.mp3.desktop.Programme3 -   Artistes bloques : [bekoto augustin]
-2026-06-30 19:30:21.503 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
-2026-06-30 19:31:01.903 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
-2026-06-30 19:31:01.905 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Blacklist chargee : 1 genre(s) bloques, 1 artiste(s) bloques.
-2026-06-30 19:31:01.906 [Thread-P3] INFO  com.mp3.desktop.Programme3 -   Genres bloques : [salegy]
-2026-06-30 19:31:01.906 [Thread-P3] INFO  com.mp3.desktop.Programme3 -   Artistes bloques : [bekoto augustin]
-2026-06-30 19:31:01.908 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
-2026-06-30 19:31:31.744 [pool-1-thread-29] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Bodo
-2026-06-30 19:31:31.867 [pool-1-thread-29] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Bodo
-2026-06-30 19:31:31.986 [pool-1-thread-29] INFO  com.mp3.desktop.Programme3 - Chanson 'Bodo' uploadee avec succes
-2026-06-30 19:31:31.986 [pool-1-thread-29] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
-2026-06-30 19:31:32.022 [pool-1-thread-29] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
-2026-06-30 19:31:32.023 [pool-1-thread-31] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Antanambao
-2026-06-30 19:31:32.026 [pool-1-thread-31] INFO  com.mp3.desktop.Programme3 - BLACKLIST - Chanson bloquee : 'Antanambao' (artiste='Bekoto Augustin', genre='Folk'). Suppression du fichier sans envoi API.
-2026-06-30 19:31:32.053 [pool-1-thread-31] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
-2026-06-30 19:31:32.054 [pool-1-thread-32] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
-2026-06-30 19:31:32.055 [pool-1-thread-32] INFO  com.mp3.desktop.Programme3 - BLACKLIST - Chanson bloquee : 'IAO' (artiste='ROSSY', genre='salegy'). Suppression du fichier sans envoi API.
-2026-06-30 19:31:32.077 [pool-1-thread-32] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 08:04:45.802 [pool-1-thread-453] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Happier Than Ever
+2026-07-01 08:04:45.817 [pool-1-thread-453] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : ?Happier Than Ever
+2026-07-01 08:04:45.969 [pool-1-thread-453] INFO  com.mp3.desktop.Programme3 - Chanson '?Happier Than Ever' uploadee avec succes
+2026-07-01 08:04:45.970 [pool-1-thread-453] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-07-01 08:04:46.003 [pool-1-thread-453] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-07-01 08:04:46.006 [pool-1-thread-458] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?HATRAIZA / AZA AVELA - REKO
+2026-07-01 08:04:46.011 [pool-1-thread-458] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : ?HATRAIZA / AZA AVELA - REKO
+2026-07-01 08:04:46.143 [pool-1-thread-458] INFO  com.mp3.desktop.Programme3 - Chanson '?HATRAIZA / AZA AVELA - REKO' uploadee avec succes
+2026-07-01 08:04:46.143 [pool-1-thread-458] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-07-01 08:04:46.161 [pool-1-thread-458] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-07-01 08:04:46.161 [pool-1-thread-460] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Louane - Maman (2015) Official Music Video
+2026-07-01 08:04:46.170 [pool-1-thread-460] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : ?Louane - Maman (2015) Official Music Video
+2026-07-01 08:04:46.220 [pool-1-thread-460] INFO  com.mp3.desktop.Programme3 - Chanson '?Louane - Maman (2015) Official Music Video' uploadee avec succes
+2026-07-01 08:04:46.220 [pool-1-thread-460] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-07-01 08:04:46.235 [pool-1-thread-460] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-07-01 08:04:46.238 [pool-1-thread-461] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-07-01 08:04:46.240 [pool-1-thread-461] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-07-01 08:04:46.330 [pool-1-thread-461] INFO  com.mp3.desktop.Programme3 - Chanson 'Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)' uploadee avec succes
+2026-07-01 08:04:46.330 [pool-1-thread-461] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-07-01 08:04:46.355 [pool-1-thread-461] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-07-01 08:04:46.359 [pool-1-thread-462] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Misia
+2026-07-01 08:04:46.367 [pool-1-thread-462] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : ?Misia
+2026-07-01 08:04:46.490 [pool-1-thread-462] INFO  com.mp3.desktop.Programme3 - Chanson '?Misia' uploadee avec succes
+2026-07-01 08:04:46.491 [pool-1-thread-462] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-07-01 08:04:46.903 [pool-1-thread-462] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-07-01 08:04:46.906 [pool-1-thread-463] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?MITONIA - REKO (Official lyrics video)
+2026-07-01 08:04:46.906 [pool-1-thread-463] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : ?MITONIA - REKO (Official lyrics video)
+2026-07-01 08:04:47.076 [pool-1-thread-463] INFO  com.mp3.desktop.Programme3 - Chanson '?MITONIA - REKO (Official lyrics video)' uploadee avec succes
+2026-07-01 08:04:47.076 [pool-1-thread-463] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-07-01 08:04:47.099 [pool-1-thread-463] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-07-01 08:04:47.103 [pool-1-thread-464] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Ny Anaranao
+2026-07-01 08:04:47.107 [pool-1-thread-464] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : ?Ny Anaranao
+2026-07-01 08:04:47.238 [pool-1-thread-464] INFO  com.mp3.desktop.Programme3 - Chanson '?Ny Anaranao' uploadee avec succes
+2026-07-01 08:04:47.238 [pool-1-thread-464] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-07-01 08:04:47.257 [pool-1-thread-464] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-07-01 08:04:47.257 [pool-1-thread-305] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Rotoroto
+2026-07-01 08:04:47.263 [pool-1-thread-305] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : ?Rotoroto
+2026-07-01 08:04:47.374 [pool-1-thread-305] INFO  com.mp3.desktop.Programme3 - Chanson '?Rotoroto' uploadee avec succes
+2026-07-01 08:04:47.374 [pool-1-thread-305] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-07-01 08:04:47.398 [pool-1-thread-305] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-07-01 08:04:47.400 [pool-1-thread-453] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : ?Tongasoa
+2026-07-01 08:04:47.408 [pool-1-thread-453] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : ?Tongasoa
+2026-07-01 08:04:47.553 [pool-1-thread-453] INFO  com.mp3.desktop.Programme3 - Chanson '?Tongasoa' uploadee avec succes
+2026-07-01 08:04:47.553 [pool-1-thread-453] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-07-01 08:04:47.574 [pool-1-thread-453] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-07-01 08:04:55.756 [pool-1-thread-458] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Bodo
+2026-07-01 08:04:55.768 [pool-1-thread-458] INFO  com.mp3.desktop.Programme3 - DOUBLON detecte pour (hash=974ba0fd650459796f8489bdb7a26f05): Bodo. On ne l'envoie pas.
+2026-07-01 08:04:55.788 [pool-1-thread-458] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-07-01 08:04:55.790 [pool-1-thread-460] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Antanambao
+2026-07-01 08:04:55.790 [pool-1-thread-460] INFO  com.mp3.desktop.Programme3 - BLACKLIST - Chanson bloquee : 'Antanambao' (artiste='Bekoto Augustin', genre='Folk'). Suppression du fichier sans envoi API.
+2026-07-01 08:04:55.806 [pool-1-thread-460] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-07-01 08:04:55.806 [pool-1-thread-461] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 08:04:55.806 [pool-1-thread-461] INFO  com.mp3.desktop.Programme3 - BLACKLIST - Chanson bloquee : 'IAO' (artiste='ROSSY', genre='salegy'). Suppression du fichier sans envoi API.
+2026-07-01 08:04:55.820 [pool-1-thread-461] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 08:05:21.193 [Thread-P3] WARN  com.mp3.desktop.Programme3 - Programme 3 interrompu
+2026-07-01 08:05:32.036 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-07-01 08:05:32.036 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Blacklist chargee : 0 genre(s) bloques, 0 artiste(s) bloques.
+2026-07-01 08:05:32.043 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-07-01 08:07:42.114 [pool-1-thread-69] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Bodo
+2026-07-01 08:07:42.212 [pool-1-thread-69] INFO  com.mp3.desktop.Programme3 - DOUBLON detecte pour (hash=974ba0fd650459796f8489bdb7a26f05): Bodo. On ne l'envoie pas.
+2026-07-01 08:07:42.229 [pool-1-thread-69] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-07-01 08:07:42.230 [pool-1-thread-71] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Antanambao
+2026-07-01 08:07:42.236 [pool-1-thread-71] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Antanambao
+2026-07-01 08:07:42.361 [pool-1-thread-71] INFO  com.mp3.desktop.Programme3 - Chanson 'Antanambao' uploadee avec succes
+2026-07-01 08:07:42.362 [pool-1-thread-71] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-07-01 08:07:42.384 [pool-1-thread-71] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-07-01 08:07:42.385 [pool-1-thread-72] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 08:07:42.391 [pool-1-thread-72] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : IAO
+2026-07-01 08:07:42.495 [pool-1-thread-72] INFO  com.mp3.desktop.Programme3 - Chanson 'IAO' uploadee avec succes
+2026-07-01 08:07:42.495 [pool-1-thread-72] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 08:07:42.520 [pool-1-thread-72] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 08:50:20.318 [Thread-P3] WARN  com.mp3.desktop.Programme3 - Programme 3 interrompu
+2026-07-01 08:50:32.464 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-07-01 08:50:32.470 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Blacklist chargee : 0 genre(s) bloques, 0 artiste(s) bloques.
+2026-07-01 08:50:32.490 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-07-01 09:21:32.755 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-07-01 09:21:32.756 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Blacklist chargee : 0 genre(s) bloques, 0 artiste(s) bloques.
+2026-07-01 09:21:32.758 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Limite de duree chargee : 3600 secondes (60 min)
+2026-07-01 09:21:32.779 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-07-01 09:29:43.456 [pool-1-thread-212] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:29:43.549 [pool-1-thread-212] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : IAO
+2026-07-01 09:29:43.781 [pool-1-thread-212] INFO  com.mp3.desktop.Programme3 - Chanson 'IAO' uploadee avec succes
+2026-07-01 09:29:43.781 [pool-1-thread-212] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:29:43.821 [pool-1-thread-212] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:31:22.150 [Thread-P3] WARN  com.mp3.desktop.Programme3 - Programme 3 interrompu
+2026-07-01 09:31:32.932 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-07-01 09:31:32.935 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Blacklist chargee : 0 genre(s) bloques, 0 artiste(s) bloques.
+2026-07-01 09:31:32.935 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Limite de duree chargee : 180 secondes (3 min)
+2026-07-01 09:31:32.943 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-07-01 09:31:52.648 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:31:52.649 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:32:02.689 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:32:02.690 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:32:12.622 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:32:12.622 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:32:22.636 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:32:22.636 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:32:32.667 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:32:32.667 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:32:42.708 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:32:42.709 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:32:52.739 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:32:52.739 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:33:02.752 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:33:02.752 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:33:12.781 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:33:12.781 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:33:22.805 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:33:22.805 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:33:32.862 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:33:32.862 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:33:42.859 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:33:42.863 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:33:52.895 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:33:52.895 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:34:02.929 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:34:02.929 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:34:12.975 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:34:12.975 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:34:23.004 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:34:23.004 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:34:33.049 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:34:33.049 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:34:43.087 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:34:43.087 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:34:53.096 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:34:53.096 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:35:03.109 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:35:03.109 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:35:13.122 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:35:13.122 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:35:23.151 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:35:23.151 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:35:33.176 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:35:33.176 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:35:43.217 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:35:43.217 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:35:53.243 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:35:53.243 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:36:03.279 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:36:03.279 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:36:13.300 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:36:13.300 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:36:23.329 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:36:23.329 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:36:33.343 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:36:33.343 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:36:43.363 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:36:43.363 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:36:53.401 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:36:53.401 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:37:03.429 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:37:03.429 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:37:13.432 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:37:13.432 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:37:23.448 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:37:23.449 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:37:33.493 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:37:33.495 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:37:43.513 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:37:43.513 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:37:53.539 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:37:53.539 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:38:03.624 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:38:03.624 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:38:13.639 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:38:13.639 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:38:23.654 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:38:23.654 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:38:33.679 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:38:33.679 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:38:43.721 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:38:43.721 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:38:53.749 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:38:53.749 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:39:03.761 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:39:03.761 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:39:13.789 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:39:13.789 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:39:23.807 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:39:23.807 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:39:33.836 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:39:33.836 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:39:43.881 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:39:43.883 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:39:54.018 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:39:54.024 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:40:04.007 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:40:04.007 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:40:14.040 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:40:14.040 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:40:24.075 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:40:24.075 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:40:34.251 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:40:34.260 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:40:44.250 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:40:44.250 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:40:54.293 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:40:54.293 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:41:04.329 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:41:04.329 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:41:14.317 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:41:14.317 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:41:24.336 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:41:24.336 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:41:34.364 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:41:34.364 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:41:44.399 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:41:44.399 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:41:54.439 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:41:54.439 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:42:04.450 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:42:04.450 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:42:14.591 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:42:14.593 [pool-1-thread-60] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:42:24.595 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:42:24.595 [pool-1-thread-14] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:42:34.612 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:42:34.612 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:42:44.643 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:42:44.643 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:42:54.661 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:42:54.661 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:43:04.704 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:43:04.704 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:43:14.715 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:43:14.715 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:43:25.353 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-07-01 09:43:25.354 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Blacklist chargee : 0 genre(s) bloques, 0 artiste(s) bloques.
+2026-07-01 09:43:25.354 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Limite de duree chargee : 180 secondes (3 min)
+2026-07-01 09:43:25.367 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-07-01 09:43:25.377 [pool-1-thread-17] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:43:25.377 [pool-1-thread-17] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:43:34.963 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:43:34.963 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:43:44.951 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:43:44.951 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:43:55.002 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:43:55.002 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:44:05.035 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:44:05.035 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:44:15.054 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:44:15.054 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:44:25.137 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:44:25.168 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:44:35.099 [pool-1-thread-59] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:44:35.099 [pool-1-thread-59] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:44:45.140 [pool-1-thread-17] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:44:45.140 [pool-1-thread-17] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:44:55.148 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:44:55.149 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:45:05.182 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:45:05.186 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:45:15.198 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:45:15.199 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:45:25.246 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:45:25.246 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:45:35.238 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:45:35.239 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:45:45.259 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:45:45.262 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:45:55.287 [pool-1-thread-59] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:45:55.287 [pool-1-thread-59] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:46:05.313 [pool-1-thread-17] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:46:05.313 [pool-1-thread-17] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:46:15.373 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:46:15.375 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:46:25.397 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:46:25.397 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:46:35.398 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:46:35.398 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:46:45.429 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:46:45.429 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:46:55.489 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:46:55.489 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:47:05.489 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:47:05.489 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:47:15.521 [pool-1-thread-59] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:47:15.521 [pool-1-thread-59] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:47:25.553 [pool-1-thread-17] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:47:25.564 [pool-1-thread-17] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:47:35.579 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:47:35.579 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:47:45.593 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:47:45.595 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:47:55.618 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:47:55.618 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:48:05.657 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:48:05.661 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:48:15.641 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:48:15.641 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:48:25.662 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:48:25.662 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:48:35.689 [pool-1-thread-59] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:48:35.689 [pool-1-thread-59] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:48:45.720 [pool-1-thread-17] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:48:45.720 [pool-1-thread-17] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:48:55.736 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:48:55.738 [pool-1-thread-24] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:49:05.745 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:49:05.745 [pool-1-thread-30] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:49:15.789 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:49:15.789 [pool-1-thread-36] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:49:25.806 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:49:25.806 [pool-1-thread-42] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:49:35.834 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:49:35.835 [pool-1-thread-48] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.
+2026-07-01 09:49:45.864 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-07-01 09:49:45.864 [pool-1-thread-54] INFO  com.mp3.desktop.Programme3 - LIMITE DUREE - Chanson bloquee : 'IAO' (228 s > 180 s). Le fichier n'est pas envoye ni supprime.

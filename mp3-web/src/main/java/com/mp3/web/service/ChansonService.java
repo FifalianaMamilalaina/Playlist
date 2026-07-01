@@ -118,6 +118,27 @@ public class ChansonService {
         return playlistRepository.save(playlist);
     }
 
+    /**
+     * Fusionner plusieurs playlists en une nouvelle, sans doublon de chansons.
+     */
+    public Playlist fusionnerPlaylists(List<Long> playlistIds, String nouveauNom) {
+        Playlist nouvellePlaylist = new Playlist(nouveauNom, null); // Pas de limite de durée
+        List<Chanson> chansonsFusionnees = new ArrayList<>();
+        
+        for (Long id : playlistIds) {
+            trouverPlaylistParId(id).ifPresent(p -> {
+                for (Chanson c : p.getChansons()) {
+                    if (!chansonsFusionnees.contains(c)) {
+                        chansonsFusionnees.add(c);
+                    }
+                }
+            });
+        }
+        
+        nouvellePlaylist.setChansons(chansonsFusionnees);
+        return playlistRepository.save(nouvellePlaylist);
+    }
+
     // ======= CRUD Playlist =======
 
     public List<Playlist> listerPlaylists() {

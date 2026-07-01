@@ -1,0 +1,58 @@
+2026-06-30 18:53:45.510 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-06-30 18:53:45.523 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-06-30 19:03:05.142 [Thread-P3] WARN  com.mp3.desktop.Programme3 - Programme 3 interrompu
+2026-06-30 19:03:21.412 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-06-30 19:03:21.416 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Blacklist chargee : 0 genre(s) bloques, 0 artiste(s) bloques.
+2026-06-30 19:03:21.427 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-06-30 19:05:51.635 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Bodo
+2026-06-30 19:05:51.893 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Bodo
+2026-06-30 19:05:52.070 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Chanson 'Bodo' uploadee avec succes
+2026-06-30 19:05:52.070 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-06-30 19:05:52.107 [pool-1-thread-77] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-06-30 19:05:52.109 [pool-1-thread-79] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Antanambao
+2026-06-30 19:05:52.120 [pool-1-thread-79] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Antanambao
+2026-06-30 19:05:52.234 [pool-1-thread-79] INFO  com.mp3.desktop.Programme3 - Chanson 'Antanambao' uploadee avec succes
+2026-06-30 19:05:52.234 [pool-1-thread-79] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-06-30 19:05:52.254 [pool-1-thread-79] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-06-30 19:05:52.256 [pool-1-thread-80] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-06-30 19:05:52.261 [pool-1-thread-80] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : IAO
+2026-06-30 19:05:52.355 [pool-1-thread-80] INFO  com.mp3.desktop.Programme3 - Chanson 'IAO' uploadee avec succes
+2026-06-30 19:05:52.355 [pool-1-thread-80] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-06-30 19:05:52.375 [pool-1-thread-80] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-06-30 19:08:41.894 [pool-1-thread-151] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Bodo
+2026-06-30 19:08:41.910 [pool-1-thread-151] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Bodo
+2026-06-30 19:08:42.007 [pool-1-thread-151] INFO  com.mp3.desktop.Programme3 - Chanson 'Bodo' uploadee avec succes
+2026-06-30 19:08:42.007 [pool-1-thread-151] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-06-30 19:08:42.016 [pool-1-thread-151] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-06-30 19:08:42.019 [pool-1-thread-153] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Antanambao
+2026-06-30 19:08:42.024 [pool-1-thread-153] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Antanambao
+2026-06-30 19:08:42.107 [pool-1-thread-153] INFO  com.mp3.desktop.Programme3 - Chanson 'Antanambao' uploadee avec succes
+2026-06-30 19:08:42.108 [pool-1-thread-153] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-06-30 19:08:42.112 [pool-1-thread-153] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-06-30 19:08:42.115 [pool-1-thread-154] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-06-30 19:08:42.128 [pool-1-thread-154] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : IAO
+2026-06-30 19:08:42.206 [pool-1-thread-154] INFO  com.mp3.desktop.Programme3 - Chanson 'IAO' uploadee avec succes
+2026-06-30 19:08:42.206 [pool-1-thread-154] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-06-30 19:08:42.216 [pool-1-thread-154] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-06-30 19:29:59.274 [Thread-P3] WARN  com.mp3.desktop.Programme3 - Programme 3 interrompu
+2026-06-30 19:30:21.493 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-06-30 19:30:21.493 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Blacklist chargee : 1 genre(s) bloques, 1 artiste(s) bloques.
+2026-06-30 19:30:21.493 [Thread-P3] INFO  com.mp3.desktop.Programme3 -   Genres bloques : [salegy]
+2026-06-30 19:30:21.493 [Thread-P3] INFO  com.mp3.desktop.Programme3 -   Artistes bloques : [bekoto augustin]
+2026-06-30 19:30:21.503 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-06-30 19:31:01.903 [Thread-P3] INFO  com.mp3.desktop.Programme3 - === Demarrage du Programme 3 ===
+2026-06-30 19:31:01.905 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Blacklist chargee : 1 genre(s) bloques, 1 artiste(s) bloques.
+2026-06-30 19:31:01.906 [Thread-P3] INFO  com.mp3.desktop.Programme3 -   Genres bloques : [salegy]
+2026-06-30 19:31:01.906 [Thread-P3] INFO  com.mp3.desktop.Programme3 -   Artistes bloques : [bekoto augustin]
+2026-06-30 19:31:01.908 [Thread-P3] INFO  com.mp3.desktop.Programme3 - Programme 3 en attente de messages sur la queue queue_metadata
+2026-06-30 19:31:31.744 [pool-1-thread-29] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Bodo
+2026-06-30 19:31:31.867 [pool-1-thread-29] INFO  com.mp3.desktop.Programme3 - Nouvelle chanson detectee. Upload du fichier + metadonnees vers l'API : Bodo
+2026-06-30 19:31:31.986 [pool-1-thread-29] INFO  com.mp3.desktop.Programme3 - Chanson 'Bodo' uploadee avec succes
+2026-06-30 19:31:31.986 [pool-1-thread-29] INFO  com.mp3.desktop.Programme3 - Succes de l'API. Suppression du fichier d'origine : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-06-30 19:31:32.022 [pool-1-thread-29] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-06-30 19:31:32.023 [pool-1-thread-31] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : Antanambao
+2026-06-30 19:31:32.026 [pool-1-thread-31] INFO  com.mp3.desktop.Programme3 - BLACKLIST - Chanson bloquee : 'Antanambao' (artiste='Bekoto Augustin', genre='Folk'). Suppression du fichier sans envoi API.
+2026-06-30 19:31:32.053 [pool-1-thread-31] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-06-30 19:31:32.054 [pool-1-thread-32] INFO  com.mp3.desktop.Programme3 - <- Metadata recu (P3) : IAO
+2026-06-30 19:31:32.055 [pool-1-thread-32] INFO  com.mp3.desktop.Programme3 - BLACKLIST - Chanson bloquee : 'IAO' (artiste='ROSSY', genre='salegy'). Suppression du fichier sans envoi API.
+2026-06-30 19:31:32.077 [pool-1-thread-32] INFO  com.mp3.desktop.Programme3 - Fichier supprime : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3

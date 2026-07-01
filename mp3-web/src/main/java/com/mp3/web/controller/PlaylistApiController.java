@@ -76,6 +76,21 @@ public class PlaylistApiController {
         return ResponseEntity.status(201).body(playlist);
     }
 
+    // POST /api/playlists/fusionner - Fusionner plusieurs playlists
+    @PostMapping("/fusionner")
+    public ResponseEntity<Playlist> fusionner(@RequestBody Map<String, Object> body) {
+        String nom = (String) body.getOrDefault("nom", "Playlist Fusionnée");
+        if (body.containsKey("playlistIds")) {
+            @SuppressWarnings("unchecked")
+            List<Integer> idsRaw = (List<Integer>) body.get("playlistIds");
+            List<Long> ids = idsRaw.stream().map(Long::valueOf).toList();
+            
+            Playlist playlist = chansonService.fusionnerPlaylists(ids, nom);
+            return ResponseEntity.status(201).body(playlist);
+        }
+        return ResponseEntity.badRequest().build();
+    }
+
     // PUT /api/playlists/{id} - Modifier une playlist (changer les chansons)
     @PutMapping("/{id}")
     public ResponseEntity<Playlist> modifier(@PathVariable Long id, @RequestBody Map<String, Object> body) {
@@ -95,7 +110,8 @@ public class PlaylistApiController {
                                 .filter(java.util.Optional::isPresent)
                                 .map(java.util.Optional::get)
                                 .toList();
-                        playlist.setChansons(new java.util.ArrayList<>(nouvelles));
+                        playlist.getChansons().clear();
+                        playlist.getChansons().addAll(nouvelles);
                     }
 
                     return ResponseEntity.ok(chansonService.sauvegarderPlaylist(playlist));

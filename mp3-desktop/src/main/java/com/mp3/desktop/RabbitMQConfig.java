@@ -12,6 +12,7 @@ public class RabbitMQConfig {
     // Noms des files d'attente (queues)
     public static final String QUEUE_LISTE_MP3 = "queue_liste_mp3";
     public static final String QUEUE_METADATA = "queue_metadata";
+    public static final String QUEUE_SUPPRESSION = "queue_suppression";
 
     private static ConnectionFactory factory;
 
@@ -34,8 +35,9 @@ public class RabbitMQConfig {
             // true = durable (survit a un redemarrage de RabbitMQ)
             channel.queueDeclare(QUEUE_LISTE_MP3, true, false, false, null);
             channel.queueDeclare(QUEUE_METADATA, true, false, false, null);
+            channel.queueDeclare(QUEUE_SUPPRESSION, true, false, false, null);
 
-            logger.info("Queues RabbitMQ initiees avec succes : {}, {}", QUEUE_LISTE_MP3, QUEUE_METADATA);
+            logger.info("Queues RabbitMQ initiees avec succes : {}, {}, {}", QUEUE_LISTE_MP3, QUEUE_METADATA, QUEUE_SUPPRESSION);
         } catch (Exception e) {
             logger.error("Erreur lors de l'initialisation des queues RabbitMQ", e);
         }

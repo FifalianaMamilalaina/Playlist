@@ -76,7 +76,14 @@
                                 <audio controls preload="none" style="height: 35px; width: 120px;">
                                     <source th:src="@{'/api/chansons/' + ${c.id} + '/stream'}" type="audio/mpeg">
                                 </audio>
-                                <button class="btn btn-sm btn-outline-success" onclick="ajouterALaPlaylist(this, [[${c.id}]], '[[${c.titre}]]', '[[${c.artiste}]]', '[[${c.dureeFormatee}]]')"><i class="bi bi-plus-lg"></i></button>
+                                <button class="btn btn-sm btn-outline-success" 
+                                    th:data-id="${c.id}" 
+                                    th:data-titre="${c.titre}" 
+                                    th:data-artiste="${c.artiste}" 
+                                    th:data-duree="${c.dureeFormatee}"
+                                    onclick="ajouterDepuisAttributs(this)">
+                                    <i class="bi bi-plus-lg"></i>
+                                </button>
                             </div>
                         </li>
                     </ul>
@@ -89,7 +96,16 @@
 <div th:replace="~{layout :: scripts}"></div>
 <script th:inline="javascript">
     const playlistId = /*[[${playlist.id}]]*/ 0;
-    
+</script>
+<script>
+    function ajouterDepuisAttributs(btn) {
+        const id = btn.getAttribute('data-id');
+        const titre = btn.getAttribute('data-titre');
+        const artiste = btn.getAttribute('data-artiste');
+        const duree = btn.getAttribute('data-duree');
+        ajouterALaPlaylist(btn, id, titre, artiste, duree);
+    }
+
     // Fonction d'ajout a la playlist visuelle
     function ajouterALaPlaylist(btn, id, titre, artiste, duree) {
         document.getElementById('vide-msg').style.display = 'none';

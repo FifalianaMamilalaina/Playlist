@@ -1,28 +1,262 @@
-2026-06-30 18:53:45.060 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
-2026-06-30 18:53:45.135 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
-2026-06-30 19:03:05.142 [Thread-P2] WARN  com.mp3.desktop.Programme2 - Programme 2 interrompu
-2026-06-30 19:03:20.983 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
-2026-06-30 19:03:21.038 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
-2026-06-30 19:05:51.450 [pool-1-thread-75] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
-2026-06-30 19:05:51.624 [pool-1-thread-75] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) :  - Bodo
-2026-06-30 19:05:51.635 [pool-1-thread-76] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
-2026-06-30 19:05:51.682 [pool-1-thread-76] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : Bekoto Augustin - Antanambao
-2026-06-30 19:05:51.685 [pool-1-thread-78] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
-2026-06-30 19:05:51.742 [pool-1-thread-78] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
-2026-06-30 19:08:41.870 [pool-1-thread-148] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
-2026-06-30 19:08:41.894 [pool-1-thread-148] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) :  - Bodo
-2026-06-30 19:08:41.894 [pool-1-thread-150] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
-2026-06-30 19:08:41.933 [pool-1-thread-150] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : Bekoto Augustin - Antanambao
-2026-06-30 19:08:41.938 [pool-1-thread-152] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
-2026-06-30 19:08:41.972 [pool-1-thread-152] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
-2026-06-30 19:29:59.274 [Thread-P2] WARN  com.mp3.desktop.Programme2 - Programme 2 interrompu
-2026-06-30 19:30:21.124 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
-2026-06-30 19:30:21.139 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
-2026-06-30 19:31:01.533 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
-2026-06-30 19:31:01.545 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
-2026-06-30 19:31:31.663 [pool-1-thread-26] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
-2026-06-30 19:31:31.744 [pool-1-thread-26] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) :  - Bodo
-2026-06-30 19:31:31.744 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
-2026-06-30 19:31:31.785 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : Bekoto Augustin - Antanambao
-2026-06-30 19:31:31.788 [pool-1-thread-30] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
-2026-06-30 19:31:31.835 [pool-1-thread-30] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 08:04:45.727 [pool-1-thread-451] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Billie Eilish - Happier Than Ever (Official Music Video)(MP3_160K).mp3
+2026-07-01 08:04:45.798 [pool-1-thread-451] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Billie Eilish - ?Happier Than Ever
+2026-07-01 08:04:45.798 [pool-1-thread-452] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\HATRAIZA _ AZA AVELA - REKO(MP3_160K).mp3
+2026-07-01 08:04:45.856 [pool-1-thread-452] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Reko Band - ?HATRAIZA / AZA AVELA - REKO
+2026-07-01 08:04:45.856 [pool-1-thread-454] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Louane - Maman (2015) Official Music Video(MP3_160K).mp3
+2026-07-01 08:04:45.890 [pool-1-thread-454] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Nils - ?Louane - Maman (2015) Official Music Video
+2026-07-01 08:04:45.890 [pool-1-thread-455] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD).mp3
+2026-07-01 08:04:45.932 [pool-1-thread-455] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : null - Matsiro kosa ny nanaovan_i Fy Rasolofoniaina ny hiran_ny tarika _Zay teto.(480P_SD)
+2026-07-01 08:04:45.935 [pool-1-thread-456] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MISIA - REKO(MP3_160K).mp3
+2026-07-01 08:04:45.980 [pool-1-thread-456] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Misia
+2026-07-01 08:04:45.980 [pool-1-thread-457] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\MITONIA - REKO (Official lyrics video)(MP3_160K).mp3
+2026-07-01 08:04:46.023 [pool-1-thread-457] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?Reko Band - ?MITONIA - REKO (Official lyrics video)
+2026-07-01 08:04:46.026 [pool-1-thread-459] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\NY ANARANAO - REKO(MP3_160K).mp3
+2026-07-01 08:04:46.080 [pool-1-thread-459] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Ny Anaranao
+2026-07-01 08:04:46.080 [pool-1-thread-306] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\ROTOROTO - REKO(MP3_160K).mp3
+2026-07-01 08:04:46.106 [pool-1-thread-306] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Rotoroto
+2026-07-01 08:04:46.106 [pool-1-thread-451] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\TONGASOA - REKO(MP3_160K).mp3
+2026-07-01 08:04:46.158 [pool-1-thread-451] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ?REKO BAND - ?Tongasoa
+2026-07-01 08:04:55.736 [pool-1-thread-452] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-07-01 08:04:55.756 [pool-1-thread-452] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) :  - Bodo
+2026-07-01 08:04:55.756 [pool-1-thread-454] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-07-01 08:04:55.780 [pool-1-thread-454] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : Bekoto Augustin - Antanambao
+2026-07-01 08:04:55.782 [pool-1-thread-455] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 08:04:55.804 [pool-1-thread-455] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 08:05:21.193 [Thread-P2] WARN  com.mp3.desktop.Programme2 - Programme 2 interrompu
+2026-07-01 08:05:31.714 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-07-01 08:05:31.724 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-07-01 08:07:42.042 [pool-1-thread-67] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Ankino.mp3
+2026-07-01 08:07:42.111 [pool-1-thread-67] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) :  - Bodo
+2026-07-01 08:07:42.113 [pool-1-thread-68] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\Antanambao.MP3
+2026-07-01 08:07:42.138 [pool-1-thread-68] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : Bekoto Augustin - Antanambao
+2026-07-01 08:07:42.141 [pool-1-thread-70] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 08:07:42.178 [pool-1-thread-70] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 08:50:20.318 [Thread-P2] WARN  com.mp3.desktop.Programme2 - Programme 2 interrompu
+2026-07-01 08:50:31.879 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-07-01 08:50:31.919 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-07-01 09:21:32.136 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-07-01 09:21:32.226 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-07-01 09:29:43.329 [pool-1-thread-210] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:29:43.452 [pool-1-thread-210] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:31:22.150 [Thread-P2] WARN  com.mp3.desktop.Programme2 - Programme 2 interrompu
+2026-07-01 09:31:32.463 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-07-01 09:31:32.490 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-07-01 09:31:52.547 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:31:52.645 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:32:02.554 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:32:02.673 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:32:12.586 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:32:12.617 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:32:22.609 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:32:22.634 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:32:32.636 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:32:32.663 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:32:42.671 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:32:42.706 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:32:52.701 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:32:52.735 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:33:02.717 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:33:02.749 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:33:12.750 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:33:12.781 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:33:22.775 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:33:22.799 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:33:32.825 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:33:32.855 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:33:42.835 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:33:42.859 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:33:52.866 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:33:52.893 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:34:02.888 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:34:02.929 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:34:12.933 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:34:12.973 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:34:22.963 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:34:22.999 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:34:33.009 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:34:33.049 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:34:43.039 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:34:43.079 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:34:53.062 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:34:53.093 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:35:03.084 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:35:03.104 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:35:13.093 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:35:13.118 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:35:23.117 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:35:23.148 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:35:33.146 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:35:33.173 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:35:43.179 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:35:43.214 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:35:53.202 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:35:53.241 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:36:03.231 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:36:03.277 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:36:13.261 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:36:13.297 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:36:23.289 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:36:23.325 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:36:33.301 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:36:33.335 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:36:43.323 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:36:43.363 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:36:53.350 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:36:53.399 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:37:03.394 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:37:03.429 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:37:13.409 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:37:13.432 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:37:23.422 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:37:23.445 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:37:33.450 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:37:33.490 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:37:43.482 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:37:43.513 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:37:53.504 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:37:53.536 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:38:03.591 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:38:03.621 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:38:13.607 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:38:13.637 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:38:23.625 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:38:23.654 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:38:33.651 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:38:33.679 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:38:43.678 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:38:43.719 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:38:53.713 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:38:53.746 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:39:03.735 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:39:03.758 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:39:13.751 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:39:13.789 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:39:23.773 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:39:23.804 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:39:33.805 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:39:33.832 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:39:43.831 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:39:43.868 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:39:53.951 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:39:54.016 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:40:03.982 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:40:04.000 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:40:14.009 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:40:14.037 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:40:24.036 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:40:24.073 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:40:34.199 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:40:34.248 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:40:44.222 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:40:44.245 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:40:54.249 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:40:54.289 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:41:04.283 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:41:04.328 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:41:14.292 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:41:14.313 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:41:24.305 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:41:24.335 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:41:34.337 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:41:34.359 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:41:44.369 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:41:44.397 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:41:54.399 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:41:54.439 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:42:04.423 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:42:04.446 [pool-1-thread-53] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:42:14.548 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:42:14.590 [pool-1-thread-59] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:42:24.569 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:42:24.593 [pool-1-thread-11] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:42:34.584 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:42:34.612 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:42:44.609 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:42:44.639 [pool-1-thread-28] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:42:54.634 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:42:54.654 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:43:04.673 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:43:04.700 [pool-1-thread-40] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:43:14.692 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:43:14.712 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:43:15.104 [Thread-P2] WARN  com.mp3.desktop.Programme2 - Programme 2 interrompu
+2026-07-01 09:43:24.798 [Thread-P2] INFO  com.mp3.desktop.Programme2 - === Demarrage du Programme 2 ===
+2026-07-01 09:43:24.829 [Thread-P2] INFO  com.mp3.desktop.Programme2 - Programme 2 en attente de messages sur la queue queue_liste_mp3
+2026-07-01 09:43:24.884 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:43:25.048 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:43:34.900 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:43:34.943 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:43:44.917 [pool-1-thread-29] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:43:44.947 [pool-1-thread-29] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:43:54.953 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:43:55.000 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:44:04.995 [pool-1-thread-41] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:44:05.029 [pool-1-thread-41] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:44:15.016 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:44:15.054 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:44:25.035 [pool-1-thread-52] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:44:25.093 [pool-1-thread-52] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:44:35.064 [pool-1-thread-9] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:44:35.095 [pool-1-thread-9] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:44:45.095 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:44:45.135 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:44:55.121 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:44:55.144 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:45:05.149 [pool-1-thread-29] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:45:05.182 [pool-1-thread-29] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:45:15.172 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:45:15.196 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:45:25.201 [pool-1-thread-41] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:45:25.246 [pool-1-thread-41] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:45:35.212 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:45:35.236 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:45:45.238 [pool-1-thread-52] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:45:45.259 [pool-1-thread-52] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:45:55.255 [pool-1-thread-9] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:45:55.285 [pool-1-thread-9] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:46:05.281 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:46:05.307 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:46:15.318 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:46:15.367 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:46:25.352 [pool-1-thread-29] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:46:25.396 [pool-1-thread-29] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:46:35.371 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:46:35.396 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:46:45.399 [pool-1-thread-41] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:46:45.425 [pool-1-thread-41] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:46:55.449 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:46:55.487 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:47:05.464 [pool-1-thread-52] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:47:05.488 [pool-1-thread-52] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:47:15.489 [pool-1-thread-9] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:47:15.517 [pool-1-thread-9] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:47:25.515 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:47:25.547 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:47:35.536 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:47:35.576 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:47:45.564 [pool-1-thread-29] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:47:45.592 [pool-1-thread-29] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:47:55.582 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:47:55.618 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:48:05.597 [pool-1-thread-41] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:48:05.642 [pool-1-thread-41] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:48:15.613 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:48:15.640 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:48:25.636 [pool-1-thread-52] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:48:25.654 [pool-1-thread-52] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:48:35.665 [pool-1-thread-9] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:48:35.686 [pool-1-thread-9] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:48:45.694 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:48:45.717 [pool-1-thread-10] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:48:55.713 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:48:55.735 [pool-1-thread-23] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:49:05.723 [pool-1-thread-29] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:49:05.743 [pool-1-thread-29] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:49:15.758 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:49:15.789 [pool-1-thread-34] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:49:25.781 [pool-1-thread-41] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:49:25.806 [pool-1-thread-41] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:49:35.807 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:49:35.833 [pool-1-thread-47] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
+2026-07-01 09:49:45.825 [pool-1-thread-52] INFO  com.mp3.desktop.Programme2 - <- Message recu (P2) : D:\ITU\S6\Mr Naina\Mp4\mp3-desktop\chanson\IAO.MP3
+2026-07-01 09:49:45.860 [pool-1-thread-52] INFO  com.mp3.desktop.Programme2 - -> Metadata envoye (P2 -> P3) : ROSSY - IAO
